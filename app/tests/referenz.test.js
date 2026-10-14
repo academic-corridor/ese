@@ -42,8 +42,9 @@ function beispielplan(n) {
 
 function ergebnis(plan) {
   const c = R.berechne(plan, HEUTE);
+  /* genau die Kennzahlen, die es vor dem Umbau gab; neue Felder (z. B. baum) bleiben außen vor */
   const zahlen = {};
-  Object.keys(c).forEach(k => { if (typeof c[k] !== 'function') zahlen[k] = c[k]; });
+  ['S', 'T', 'load', 'aktuell', 'G', 'needWP', 'soll', 'done', 'total', 'noten'].forEach(k => { zahlen[k] = c[k]; });
   return { zahlen: JSON.parse(JSON.stringify(zahlen)), hinweise: R.hinweise(c, plan) };
 }
 

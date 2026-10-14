@@ -1,5 +1,6 @@
 /* app/src/kern/regeln.js: Rechenlogik und Prüfregeln. Reine Funktionen, kein Zugriff auf die Seite (DOM).
-   Dadurch testbar mit `npm test`. Zahlen kommen aus studiengaenge/ese/struktur.js.
+   Dadurch testbar mit `npm test`. Zahlen und Aufbau kommen aus studiengaenge/ese/struktur.js,
+   die allgemeine Rechnung aus baum.js. Die Hinweistexte sind noch auf ESE zugeschnitten.
 
    Ein Modul im Plan zählt als
      d  bestanden          (Häkchen gesetzt)
@@ -10,6 +11,7 @@
   var node = typeof module === 'object' && module.exports;
   var S = node ? require('../../../studiengaenge/ese/struktur.js') : root.ESE.Struktur;
   var Sem = node ? require('./semester.js') : root.ESE.Semester;
+  var Baum = node ? require('./baum.js') : root.ESE.Baum;
   var G = S.grenzen;
 
   function themaName(id) {
@@ -31,39 +33,39 @@
     return cp ? { schnitt: Math.round(sum / cp * 100) / 100, cp: cp } : null;
   }
 
-  /* Summen pro Bereich und Themenbereich, getrennt nach d, a, p (siehe oben) */
+  /* Knoten im Strukturbaum, für den ein Modul zählt: Themenbereich bei Wahlpflicht, sonst der Bereich */
+  function knotenVon(m) {
+    return m.bereich === 'Wahlpflicht' && m.thema && themaName(m.thema) ? m.thema : m.bereich;
+  }
+
+  /* Summen pro Bereich und Themenbereich, getrennt nach d, a, p (siehe oben).
+     Die eigentliche Rechnung (Kappung, Soll) macht baum.js anhand von S.baum. */
   function berechne(plan, heute) {
     var aktuell = Sem.aktuell(heute);
-    var z = function () { return { d: 0, a: 0, p: 0 }; };
-    var Sum = {};
-    Object.keys(S.bereiche).forEach(function (k) { Sum[k] = z(); });
-    var T = {};
-    S.themen.forEach(function (t) { T[t.id] = z(); });
     var load = {};
     Sem.liste(plan.start, plan.anzahl).forEach(function (id) { load[id] = 0; });
 
+    var eintraege = [];
     plan.mods.forEach(function (m) {
       var k = status(m, aktuell); if (!k) return;
-      Sum[m.bereich][k] += m.cp;
-      if (m.bereich === 'Wahlpflicht' && m.thema && T[m.thema]) T[m.thema][k] += m.cp;
+      eintraege.push({ knoten: knotenVon(m), cp: m.cp, status: k });
       if (load[m.sem] !== undefined) load[m.sem] += m.cp;
     });
+    var baum = Baum.pruefe(S.baum, eintraege);
+    var K = baum.knoten;
 
-    var all = function (o) { return o.d + o.a + o.p; };
-    var grundlagen = Math.min(all(Sum.Grundlagen), G.grundlagenMax);
-    var needWP = Math.max(G.wahlpflichtMin, G.basisPlusWahlpflicht - grundlagen - G.iep - G.thesis);
+    var Sum = {};
+    Object.keys(S.bereiche).forEach(function (k) { Sum[k] = K[k].roh; });
+    var T = {};
+    S.themen.forEach(function (t) { T[t.id] = K[t.id].roh; });
+
+    var grundlagen = K.Grundlagen.angerechnet.alle;
+    var needWP = K.Wahlpflicht.soll;
     var soll = { Grundlagen: grundlagen, IEP: G.iep, Wahlpflicht: needWP, Thesis: G.thesis, Wahlbereich: G.wahlbereich };
-
-    var tot = function (f) {
-      var g = Math.min(f(Sum.Grundlagen), G.grundlagenMax),
-          i = Math.min(f(Sum.IEP), G.iep),
-          t = Math.min(f(Sum.Thesis), G.thesis),
-          w = Math.min(f(Sum.Wahlpflicht), G.wahlpflichtMax),
-          b = Math.min(f(Sum.Wahlbereich), G.wahlbereich);
-      return Math.min(G.basisPlusWahlpflicht, g + i + t + w) + b;
-    };
+    var all = function (o) { return o.d + o.a + o.p; };
     return { S: Sum, T: T, load: load, aktuell: aktuell, G: grundlagen, needWP: needWP, soll: soll, all: all,
-             done: tot(function (o) { return o.d; }), total: tot(all), noten: notenschnitt(plan.mods) };
+             done: K.gesamt.angerechnet.d, total: K.gesamt.angerechnet.alle, noten: notenschnitt(plan.mods),
+             baum: baum };
   }
 
   /* true, wenn ein Wintersemester-Modul im Sommersemester steht (oder umgekehrt) */
@@ -81,16 +83,12 @@
     if (wp > G.wahlpflichtMax) msgs.push(['info', 'Wahlpflicht: Über ' + G.wahlpflichtMax + ' CP zählen nicht mehr (' + (wp - G.wahlpflichtMax) + ' CP Überschuss).']);
     if (c.all(c.S.Grundlagen) > 0) msgs.push(['info', 'Grundlagenmodule (' + c.G + ' CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf ' + (G.basisPlusWahlpflicht - G.iep - G.thesis) + ' CP.']);
 
-    var best = null;
-    S.themen.forEach(function (t) {
-      if (t.vertiefung === false) return;
-      var a = c.T[t.id], s = a.d + a.a + a.p;
-      if (!best || s > best.s) best = { n: t.name, s: s, d: a.d };
-    });
-    if (best) {
-      if (best.d >= G.vertiefungMin) msgs.push(['ok', 'Vertiefung erreicht: ' + best.n + ' (' + best.d + ' CP bestanden).']);
-      else if (best.s >= G.vertiefungMin) msgs.push(['ok', 'Vertiefung mit Planung erreicht: ' + best.n + ' (' + best.s + ' CP).']);
-      else msgs.push(['warn', 'Noch keine Vertiefung: ' + (best.s ? best.n + ' liegt vorn mit ' + best.s : 'bisher 0') + ' von ' + G.vertiefungMin + ' CP.']);
+    var v = c.baum.knoten.Wahlpflicht.vertiefung;
+    if (v) {
+      var vn = themaName(v.knoten);
+      if (v.bestanden) msgs.push(['ok', 'Vertiefung erreicht: ' + vn + ' (' + v.d + ' CP bestanden).']);
+      else if (v.erreicht) msgs.push(['ok', 'Vertiefung mit Planung erreicht: ' + vn + ' (' + v.alle + ' CP).']);
+      else msgs.push(['warn', 'Noch keine Vertiefung: ' + (v.alle ? vn + ' liegt vorn mit ' + v.alle : 'bisher 0') + ' von ' + v.min + ' CP.']);
     }
     if (c.all(c.S.IEP) < G.iep) msgs.push(['info', 'Das Interdisziplinäre Energieprojekt (' + G.iep + ' CP) ist noch nicht eingeplant.']);
     if (c.all(c.S.Thesis) < G.thesis) msgs.push(['info', 'Die Masterthesis (' + G.thesis + ' CP) ist noch nicht eingeplant.']);
@@ -109,6 +107,6 @@
   }
 
   var Regeln = { berechne: berechne, status: status, notenschnitt: notenschnitt,
-                 saisonKonflikt: saisonKonflikt, hinweise: hinweise, themaName: themaName };
+                 saisonKonflikt: saisonKonflikt, hinweise: hinweise, themaName: themaName, knotenVon: knotenVon };
   if (node) { module.exports = Regeln; } else { (root.ESE = root.ESE || {}).Regeln = Regeln; }
 })(typeof self !== 'undefined' ? self : this);

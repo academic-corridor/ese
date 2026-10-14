@@ -44,6 +44,26 @@
     /* Notenstufen an der TU Darmstadt */
     noten: [1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0]
   };
+  /* Aufbau als Baum für die allgemeine Rechnung in app/src/kern/baum.js.
+     Wahlpflicht ist der Ausgleichsbereich: Er muss bringen, was Grundlagen, Projekt und Thesis
+     zu den 108 CP nicht beitragen (mindestens 41, höchstens 72 CP). Die Knoten-IDs entsprechen
+     den Werten von "bereich" im Katalog bzw. den IDs der Themenbereiche. */
+  var G = Struktur.grenzen, B = Struktur.bereiche;
+  Struktur.baum = { id: 'gesamt', name: 'Gesamt', cp: { min: G.gesamt, max: G.gesamt }, kinder: [
+    { id: 'basis', name: 'Grundlagen, Projekt, Wahlpflicht und Thesis',
+      cp: { min: G.basisPlusWahlpflicht, max: G.basisPlusWahlpflicht }, kinder: [
+      { id: 'Grundlagen', name: B.Grundlagen.name, cp: { max: G.grundlagenMax } },
+      { id: 'IEP', name: B.IEP.name, cp: { min: G.iep, max: G.iep } },
+      { id: 'Wahlpflicht', name: B.Wahlpflicht.name, cp: { min: G.wahlpflichtMin, max: G.wahlpflichtMax },
+        ausgleich: true,
+        vertiefung: { min: G.vertiefungMin,
+                      ohne: Struktur.themen.filter(function (t) { return t.vertiefung === false; }).map(function (t) { return t.id; }) },
+        kinder: Struktur.themen.map(function (t) { return { id: t.id, name: t.name }; }) },
+      { id: 'Thesis', name: B.Thesis.name, cp: { min: G.thesis, max: G.thesis } }
+    ]},
+    { id: 'Wahlbereich', name: B.Wahlbereich.name, cp: { min: G.wahlbereich, max: G.wahlbereich } }
+  ]};
+
   if (typeof module === 'object' && module.exports) { module.exports = Struktur; }
   else { (root.ESE = root.ESE || {}).Struktur = Struktur; }
 })(typeof self !== 'undefined' ? self : this);

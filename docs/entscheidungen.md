@@ -13,6 +13,8 @@
 | Semester-Kennung `W2026` / `S2027` | Lässt sich sortieren und rechnen; die Beschriftung "WiSe 26/27" entsteht erst in der Anzeige. |
 | Modul-ID aus der Modulnummer | Eindeutig und stabil, auch wenn ein Modul umbenannt wird. |
 | Ein Git-Repository für alle Teilprojekte | Weitere Studiengänge (z. B. WI-MB) kommen später dazu; gemeinsamer Verlauf, eine `.gitignore`. |
+| Regeln als Baum in den Daten | Jeder Studiengang beschreibt seine Bereiche als Baum mit CP- und Modulgrenzen (`studiengaenge/<name>/struktur.js`). `app/src/kern/baum.js` rechnet für jeden Studiengang gleich. So braucht WI-MB keine eigene Rechenlogik. |
+| Referenztests | `app/tests/referenz/ese.json` hält die Ergebnisse von 40 festen Beispielplänen fest. Ein Umbau der Rechenlogik darf daran nichts ändern. |
 | Neutrale Namensgebung | Projekt, Code und Commits tragen keinen persönlichen Namen. Commits laufen unter einer neutralen Git-Identität. |
 
 ## Quellen und Annahmen

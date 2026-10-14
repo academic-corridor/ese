@@ -28,15 +28,17 @@ ese/
 │  ├─ src/
 │  │  ├─ kern/                Rechenlogik ohne Zugriff auf die Seite, getestet
 │  │  │  ├─ semester.js       Semester-Kennungen, Reihenfolge, laufendes Semester
-│  │  │  ├─ regeln.js         Rechnung, Notenschnitt, Hinweise
+│  │  │  ├─ baum.js           allgemeine Prüfung einer Studienstruktur (CP- und Modulgrenzen je Bereich)
+│  │  │  ├─ regeln.js         Rechnung über baum.js, Notenschnitt, Hinweise (Texte noch ESE-spezifisch)
 │  │  │  └─ plan.js           Plan anlegen, sichern, laden, eigene Module
 │  │  ├─ ui/
 │  │  │  └─ app.js            Oberfläche: Darstellung, Ziehen und Ablegen, Dialoge
 │  │  └─ styles.css           Aussehen, Hell- und Dunkelmodus
 │  └─ tests/                  automatische Prüfungen (npm test)
+│     └─ referenz/            aufgezeichnete Ergebnisse von 40 Beispielplänen, sichern Umbauten ab
 ├─ studiengaenge/             nur Daten, kein Programmcode
 │  └─ ese/
-│     ├─ struktur.js          CP-Grenzen, Themenbereiche, Bereiche, Turnus, Sprachen, Noten
+│     ├─ struktur.js          CP-Grenzen, Aufbau als Baum, Themenbereiche, Turnus, Sprachen, Noten
 │     └─ module.js            Modulkatalog aus dem Modulhandbuch
 ├─ docs/                      Bedienung, Entscheidungen, Konzepte
 └─ ese-modulplaner/           nur Weiterleitung, damit alte Links funktionieren
