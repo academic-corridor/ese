@@ -8,9 +8,11 @@
        freiwillig: true         Bereich darf leer bleiben
        ausgleich:  true         Bereich übernimmt, was die Geschwister zum Soll des Elternbereichs nicht liefern
        vertiefung: { min, ohne: [ids] }   mindestens min CP in einem einzigen Unterbereich
+       maxJeGruppe: { max }     höchstens max CP je Gruppe (z. B. je Fachbereich); Einträge ohne Gruppe
+                                sind nicht begrenzt. Überzählige CP werden nicht angerechnet.
        kinder:   [ Knoten ] }
 
-   Einträge sind belegte Module: { knoten: id, cp, status } mit status
+   Einträge sind belegte Module: { knoten: id, cp, status, gruppe } mit status
      d  bestanden, a  läuft, p  geplant.
 
    Ergebnis je Knoten:
@@ -34,7 +36,7 @@
     /* 1. Knoten einsammeln */
     (function sammle(k, tiefe, eltern) {
       knoten[k.id] = { id: k.id, name: k.name || k.id, tiefe: tiefe, eltern: eltern, def: k,
-                       roh: null3(), n: null3(), direkt: null3() };
+                       roh: null3(), n: null3(), direkt: null3(), eintraege: [] };
       reihenfolge.push(k.id);
       (k.kinder || []).forEach(function (c) { sammle(c, tiefe + 1, k.id); });
     })(baum, 0, null);
@@ -47,6 +49,7 @@
       for (var id = e.knoten; id; id = knoten[id].eltern) {
         knoten[id].roh[e.status] += e.cp;
         knoten[id].n[e.status] += 1;
+        knoten[id].eintraege.push(e);
       }
     });
 
@@ -59,6 +62,24 @@
         d += knoten[c.id].angerechnet.d;
         alle += knoten[c.id].angerechnet.alle;
       });
+      if (k.maxJeGruppe) {
+        /* Je Gruppe höchstens maxJeGruppe.max CP; Kappungen in Unterbereichen werden hier nicht berücksichtigt */
+        var gm = k.maxJeGruppe.max, g = {};
+        r.eintraege.forEach(function (e) {
+          if (e.gruppe === null || e.gruppe === undefined) return;
+          g[e.gruppe] = g[e.gruppe] || { d: 0, alle: 0 };
+          g[e.gruppe].alle += e.cp;
+          if (e.status === 'd') g[e.gruppe].d += e.cp;
+        });
+        var ohneG = r.eintraege.filter(function (e) { return e.gruppe === null || e.gruppe === undefined; });
+        d = 0; alle = 0;
+        ohneG.forEach(function (e) { alle += e.cp; if (e.status === 'd') d += e.cp; });
+        r.gruppen = {};
+        Object.keys(g).sort().forEach(function (key) {
+          d += Math.min(g[key].d, gm); alle += Math.min(g[key].alle, gm);
+          r.gruppen[key] = { d: g[key].d, alle: g[key].alle, max: gm, ueberschuss: Math.max(0, g[key].alle - gm) };
+        });
+      }
       r.angerechnet = { d: kappe(d, max), alle: kappe(alle, max) };
     })(baum);
 
@@ -85,26 +106,27 @@
       var r = knoten[id], k = r.def, alle = summe(r.roh), anzahl = summe(r.n);
       var cpMax = grenze(k, 'cp', 'max'), modMin = k.freiwillig ? null : grenze(k, 'module', 'min'), modMax = grenze(k, 'module', 'max');
       r.ueberschuss = cpMax !== null && alle > cpMax ? alle - cpMax : 0;
+      r.gruppenUeberschuss = 0;
+      if (r.gruppen) Object.keys(r.gruppen).forEach(function (g) { r.gruppenUeberschuss += r.gruppen[g].ueberschuss; });
       r.ueberzaehligeModule = modMax !== null && anzahl > modMax ? anzahl - modMax : 0;
       r.fehlendeCP = Math.max(0, r.soll - r.angerechnet.alle);
       r.fehlendeModule = modMin !== null && anzahl < modMin ? modMin - anzahl : 0;
-      r.zustand = r.ueberschuss || r.ueberzaehligeModule ? 'zuviel'
+      r.zustand = r.ueberschuss || r.ueberzaehligeModule || r.gruppenUeberschuss ? 'zuviel'
                 : r.fehlendeCP || r.fehlendeModule ? 'offen' : 'ok';
       if (k.vertiefung) {
-        var best = null, ohne = k.vertiefung.ohne || [];
-        (k.kinder || []).forEach(function (c) {
-          if (ohne.indexOf(c.id) >= 0) return;
-          var s = summe(knoten[c.id].roh);
-          if (!best || s > best.alle) best = { knoten: c.id, alle: s, d: knoten[c.id].roh.d };
+        /* Kandidaten nach CP (mit Planung) sortiert; bei Gleichstand gilt die Reihenfolge im Baum */
+        var vmin = k.vertiefung.min, ohne = k.vertiefung.ohne || [];
+        var kand = (k.kinder || []).filter(function (c) { return ohne.indexOf(c.id) < 0; }).map(function (c, i) {
+          var s = summe(knoten[c.id].roh), dd = knoten[c.id].roh.d;
+          return { knoten: c.id, alle: s, d: dd, min: vmin, erreicht: s >= vmin, bestanden: dd >= vmin, i: i };
         });
-        if (best) {
-          best.min = k.vertiefung.min;
-          best.erreicht = best.alle >= best.min;
-          best.bestanden = best.d >= best.min;
-        }
-        r.vertiefung = best;
+        kand.sort(function (a, b) { return b.alle - a.alle || a.i - b.i; });
+        kand.forEach(function (c) { delete c.i; });
+        r.vertiefung = kand.length ? kand[0] : null;
+        /* weitere Themenbereiche, die ebenfalls die Mindest-CP erreichen (zweite Vertiefung) */
+        r.weitereVertiefungen = kand.slice(1).filter(function (c) { return c.erreicht; });
       }
-      delete r.def; delete r.direkt;
+      delete r.def; delete r.direkt; delete r.eintraege;
     });
 
     return { knoten: knoten, reihenfolge: reihenfolge, unbekannt: unbekannt };

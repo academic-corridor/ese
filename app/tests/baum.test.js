@@ -87,6 +87,23 @@ test('Vertiefung: bestes Kind, ausgenommene Kinder zählen nicht', () => {
   assert.deepStrictEqual(r.knoten.w.vertiefung, { knoten: 'b', alle: 16, d: 4, min: 20, erreicht: false, bestanden: false });
 });
 
+test('zweite Vertiefung: weitere Kinder über der Mindestgrenze', () => {
+  const W = { id: 'w', vertiefung: { min: 20, ohne: ['q'] }, kinder: [{ id: 'a' }, { id: 'b' }, { id: 'q' }] };
+  const r = Baum.pruefe(W, [e('a', 22, 'd'), e('b', 25), e('q', 30)]);
+  assert.strictEqual(r.knoten.w.vertiefung.knoten, 'b');
+  assert.deepStrictEqual(r.knoten.w.weitereVertiefungen.map(v => v.knoten), ['a']);
+});
+
+test('maxJeGruppe: höchstens 32 CP je Fachbereich, Rest zählt nicht', () => {
+  const W = { id: 'w', cp: { max: 72 }, maxJeGruppe: { max: 32 }, kinder: [{ id: 'a' }, { id: 'b' }] };
+  const g = (knoten, cp, gruppe, status) => ({ knoten, cp, gruppe, status: status || 'p' });
+  const r = Baum.pruefe(W, [g('a', 20, '18', 'd'), g('b', 20, '18', 'd'), g('a', 10, '16'), g('b', 6, null)]);
+  assert.deepStrictEqual(r.knoten.w.angerechnet, { d: 32, alle: 48 });
+  assert.deepStrictEqual(r.knoten.w.gruppen['18'], { d: 40, alle: 40, max: 32, ueberschuss: 8 });
+  assert.strictEqual(r.knoten.w.zustand, 'zuviel');
+  assert.strictEqual(r.knoten.w.gruppenUeberschuss, 8);
+});
+
 test('unbekannter Knoten wird gemeldet statt verschluckt', () => {
   const r = Baum.pruefe(MB, [e('gibtsnicht', 6)]);
   assert.deepStrictEqual(r.unbekannt, ['gibtsnicht']);

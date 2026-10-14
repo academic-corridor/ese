@@ -19,16 +19,28 @@
 
 ## Quellen und Annahmen
 
-- Soll-Werte: Studienplan ESE (Satzungsbeilage 2026_IV).
-- Wahlpflicht-Soll = 108 minus Grundlagen, IEP (6) und Thesis (30), mindestens 41. Das ist abgeleitet, nicht wörtlich im Studienplan.
+- Regeln: Ordnung des Studiengangs ESE vom 20.04.2022, in Kraft ab 01.10.2023 (PO 2023), Anhang I Studien- und Prüfungsplan (Stand 01.08.2022). Ergänzend: Studienplan ESE (Satzungsbeilage 2026_IV).
+- Grenzen laut Anhang I: Basisbereich und Wahlpflichtbereich zusammen 108 CP, davon Basisbereich 36 bis 67 CP (Grundlagenmodule 0 bis 31, Interdisziplinäres Energieprojekt 6, Thesis 30) und Wahlpflichtbereich 41 bis 72 CP; Wahlbereich 12 CP. Daraus folgt das Wahlpflicht-Soll: 108 minus Grundlagen, Projekt und Thesis, mindestens 41.
+- Wahlpflichtbereich laut Anhang I, alle umgesetzt:
+  - Vertiefung: mindestens 20 CP **bestanden** in einem Themenbereich, Querschnittsthemen ausgenommen. Eine zweite Vertiefung mit weiteren 20 CP in einem anderen Themenbereich wird ebenfalls ausgewiesen.
+  - Höchstens 32 CP aus dem Angebot eines Fachbereichs. Darüber hinausgehende CP rechnet die App nicht an.
+  - Höchstens zwei Mini-Forschungsprojekte (18-en-2020 bis 18-en-2026).
+  - Im Themenbereich der Vertiefung *soll* ein Mini-Forschungsprojekt liegen. Weil es eine Soll-Vorschrift ist, gibt die App nur einen Hinweis.
+  - Im Wahlpflicht- und Wahlbereich zusammen mindestens 5 CP aus den Fachbereichen 01 (Rechts- und Wirtschaftswissenschaften), 02 (Gesellschafts- und Geschichtswissenschaften) oder 03 (Humanwissenschaften). Grundlagenmodule dieser Fachbereiche zählen dafür nicht.
+- Thesis: Das Thema wird erst ab 75 erworbenen CP ausgegeben. Die App vergleicht mit allen CP, die in Semestern vor der Thesis eingeplant sind.
+- Annahmen, weil die Ordnung es nicht genau sagt:
+  - Der Fachbereich ergibt sich aus den ersten beiden Stellen der Modulnummer (z. B. 18 = Elektrotechnik und Informationstechnik). Eigene Module ohne Modulnummer sind von der 32-CP-Grenze ausgenommen und zählen nicht für die 5-CP-Regel.
+  - Die 32-CP-Grenze gilt für den ganzen Wahlpflichtbereich, also auch für die Module der Vertiefung. Der Satz in Anhang I („Alle weiteren Module … höchstens 32 CP aus dem Angebot eines Fachbereichs“) lässt auch die Lesart zu, dass nur die Module außerhalb der Vertiefung gemeint sind. Die App rechnet mit der strengeren Lesart.
+  - Die Mini-Forschungsprojekte (Modulnummer 18-en-…) zählen zum Fachbereich 18.
 - Katalog: automatisch aus dem Modulhandbuch ESE (PO 2023, Stand 01.10.2023) ausgelesen, 161 Moduleinträge, davon einer doppelt (Energy Converters - CAD and System Dynamics in zwei Themenbereichen), also 160 Module.
 - Module, die nicht im Handbuch stehen, legt man in der App als eigenes Modul an.
 - Turnus und Sprache stehen so im Handbuch. Neuere Angaben im Vorlesungsverzeichnis (TUCaN) können abweichen.
-- Notenschnitt: einfacher CP-gewichteter Durchschnitt über alle Module mit Note. Die Gewichtung der Gesamtnote laut Prüfungsordnung (z. B. Thesis, Wahlbereich) ist nicht abgebildet.
+- Notenschnitt: CP-gewichteter Durchschnitt über alle Module mit Note. Das entspricht der Ordnung (zu § 28 (2) APB: Modulnoten gehen nach CP in die Gesamtnote ein, soweit Anhang I nichts anderes festlegt). Module, die laut Anhang I nur mit bestanden/nicht bestanden bewertet werden (z. B. einige Physik-Module), sollten keine Note bekommen.
 
 ## Offene Punkte
 
 - Regel zur Doppelanrechnung zwischen ESE und WI-MB bei einem Doppelstudium.
+- Gilt die Grenze von 32 CP je Fachbereich für den ganzen Wahlpflichtbereich oder nur für die Module außerhalb der Vertiefung? Und zählen die Mini-Forschungsprojekte zum Fachbereich 18? (Prüfungskommission fragen)
 - Gibt es ein neueres Modulhandbuch als Stand 01.10.2023? Dann Katalog neu auslesen.
 - Bei "jedes 2. Semester" sagt das Handbuch nicht, ob Winter oder Sommer. Dafür gibt es keine Warnung.
 - Der Plan liegt nur im Browser, bis er mit "Plan sichern" in eine Datei geschrieben wird.

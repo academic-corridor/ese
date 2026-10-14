@@ -1,6 +1,7 @@
 /* Referenztests: Rechnung und Hinweise für viele zufällig erzeugte, aber feste Beispielpläne.
-   Die erwarteten Ergebnisse liegen in referenz/ese.json und wurden VOR dem Umbau der
-   Rechenlogik aufgezeichnet. Der Test stellt sicher, dass ein Umbau nichts an den Ergebnissen ändert.
+   Die erwarteten Ergebnisse liegen in referenz/ese.json. Aufgezeichnet vor dem Umbau der Rechenlogik,
+   neu aufgezeichnet nach Ergänzung der Regeln aus der Studienordnung (nur neue Hinweise, Kennzahlen gleich).
+   Der Test stellt sicher, dass ein Umbau nichts an den Ergebnissen ändert.
 
    Neu aufzeichnen (nur wenn sich eine Regel absichtlich ändert):
      REFERENZ_NEU=1 npm test */
@@ -56,7 +57,7 @@ if (process.env.REFERENZ_NEU) {
   fs.writeFileSync(DATEI, JSON.stringify(alle, null, 1) + '\n');
 }
 
-test('Referenz: ' + ANZAHL + ' Beispielpläne rechnen wie vor dem Umbau', () => {
+test('Referenz: ' + ANZAHL + ' Beispielpläne rechnen wie aufgezeichnet', () => {
   const erwartet = JSON.parse(fs.readFileSync(DATEI, 'utf8'));
   assert.strictEqual(erwartet.length, ANZAHL);
   for (let n = 0; n < ANZAHL; n++) {

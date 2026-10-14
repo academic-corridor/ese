@@ -12,6 +12,7 @@
   var S = node ? require('../../../studiengaenge/ese/struktur.js') : root.ESE.Struktur;
   var Sem = node ? require('./semester.js') : root.ESE.Semester;
   var Baum = node ? require('./baum.js') : root.ESE.Baum;
+  var Zusatz = node ? require('./zusatzregeln.js') : root.ESE.Zusatzregeln;
   var G = S.grenzen;
 
   function themaName(id) {
@@ -48,11 +49,13 @@
     var eintraege = [];
     plan.mods.forEach(function (m) {
       var k = status(m, aktuell); if (!k) return;
-      eintraege.push({ knoten: knotenVon(m), cp: m.cp, status: k });
+      eintraege.push({ knoten: knotenVon(m), cp: m.cp, status: k, nr: m.nr, gruppe: Zusatz.fachbereich(m.nr), sem: m.sem });
       if (load[m.sem] !== undefined) load[m.sem] += m.cp;
     });
     var baum = Baum.pruefe(S.baum, eintraege);
     var K = baum.knoten;
+    var zusatz = {};
+    Zusatz.pruefe(S.zusatzregeln, eintraege, baum).forEach(function (z) { zusatz[z.regel.id] = z; });
 
     var Sum = {};
     Object.keys(S.bereiche).forEach(function (k) { Sum[k] = K[k].roh; });
@@ -65,7 +68,7 @@
     var all = function (o) { return o.d + o.a + o.p; };
     return { S: Sum, T: T, load: load, aktuell: aktuell, G: grundlagen, needWP: needWP, soll: soll, all: all,
              done: K.gesamt.angerechnet.d, total: K.gesamt.angerechnet.alle, noten: notenschnitt(plan.mods),
-             baum: baum };
+             baum: baum, zusatz: zusatz };
   }
 
   /* true, wenn ein Wintersemester-Modul im Sommersemester steht (oder umgekehrt) */
@@ -77,9 +80,14 @@
   /* Hinweise für die Seitenleiste: Liste aus [stufe, text], stufe = ok | warn | info */
   function hinweise(c, plan) {
     var msgs = [], mods = plan.mods;
-    var wp = c.all(c.S.Wahlpflicht);
-    if (wp < c.needWP) msgs.push(['warn', 'Wahlpflicht: ' + (c.needWP - wp) + ' CP fehlen noch bis zum Soll von ' + c.needWP + ' CP.']);
+    var WP = c.baum.knoten.Wahlpflicht, wp = c.all(c.S.Wahlpflicht), wpZaehlt = WP.angerechnet.alle;
+    if (wpZaehlt < c.needWP) msgs.push(['warn', 'Wahlpflicht: ' + (c.needWP - wpZaehlt) + ' CP fehlen noch bis zum Soll von ' + c.needWP + ' CP.']);
     else msgs.push(['ok', 'Wahlpflicht: Soll von ' + c.needWP + ' CP ist mit Planung erreicht.']);
+    Object.keys(WP.gruppen || {}).forEach(function (fb) {
+      var g = WP.gruppen[fb];
+      if (g.ueberschuss) msgs.push(['warn', 'Wahlpflicht: ' + g.alle + ' CP aus dem Fachbereich ' + (S.fachbereiche[fb] || fb) +
+        '. Höchstens ' + g.max + ' CP je Fachbereich zählen, ' + g.ueberschuss + ' CP zählen nicht.']);
+    });
     if (wp > G.wahlpflichtMax) msgs.push(['info', 'Wahlpflicht: Über ' + G.wahlpflichtMax + ' CP zählen nicht mehr (' + (wp - G.wahlpflichtMax) + ' CP Überschuss).']);
     if (c.all(c.S.Grundlagen) > 0) msgs.push(['info', 'Grundlagenmodule (' + c.G + ' CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf ' + (G.basisPlusWahlpflicht - G.iep - G.thesis) + ' CP.']);
 
@@ -90,6 +98,18 @@
       else if (v.erreicht) msgs.push(['ok', 'Vertiefung mit Planung erreicht: ' + vn + ' (' + v.alle + ' CP).']);
       else msgs.push(['warn', 'Noch keine Vertiefung: ' + (v.alle ? vn + ' liegt vorn mit ' + v.alle : 'bisher 0') + ' von ' + v.min + ' CP.']);
     }
+    (c.baum.knoten.Wahlpflicht.weitereVertiefungen || []).forEach(function (w) {
+      msgs.push(['ok', 'Zweite Vertiefung ' + (w.bestanden ? 'erreicht' : 'mit Planung erreicht') + ': ' + themaName(w.knoten) +
+        ' (' + (w.bestanden ? w.d + ' CP bestanden' : w.alle + ' CP') + '). Wird ebenfalls auf dem Zeugnis ausgewiesen.']);
+    });
+    var z = c.zusatz;
+    if (z.mfpVertiefung && !z.mfpVertiefung.ok) msgs.push(['info', 'Im Themenbereich der Vertiefung (' + themaName(z.mfpVertiefung.thema) + ') soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden.']);
+    if (z.mfp && !z.mfp.ok) msgs.push(['warn', 'Mini-Forschungsprojekte: ' + z.mfp.anzahl + ' eingeplant, höchstens ' + z.mfp.max + ' können eingebracht werden.']);
+    if (z.fachfremd && !z.fachfremd.ok) msgs.push(['info', 'Im Wahlpflicht- und Wahlbereich zusammen sind mindestens ' + z.fachfremd.min +
+      ' CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher ' + z.fachfremd.cp + ' CP).' +
+      (z.fachfremd.ohneNummer ? ' Bei eigenen Modulen bitte die Modulnummer eintragen, sonst lässt sich das nicht prüfen.' : '')]);
+    if (z.thesis && !z.thesis.ok) msgs.push(['warn', 'Masterthesis im ' + Sem.label(z.thesis.sem) + ': Bis dahin sind ' + z.thesis.cp +
+      ' CP eingeplant. Das Thema wird erst ausgegeben, wenn mindestens ' + z.thesis.min + ' CP erworben sind.']);
     if (c.all(c.S.IEP) < G.iep) msgs.push(['info', 'Das Interdisziplinäre Energieprojekt (' + G.iep + ' CP) ist noch nicht eingeplant.']);
     if (c.all(c.S.Thesis) < G.thesis) msgs.push(['info', 'Die Masterthesis (' + G.thesis + ' CP) ist noch nicht eingeplant.']);
     var wb = c.all(c.S.Wahlbereich);

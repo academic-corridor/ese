@@ -62,12 +62,23 @@ function cardHTML(m,compact){
 }
 
 /* ---------- Kopfband ---------- */
+/* Angerechnete CP eines Bereichs (bestanden und mit Planung). Im Wahlpflichtbereich ohne die CP,
+   die über die Grenze je Fachbereich hinausgehen. */
+function zaehlt(c,k){
+  var o=c.S[k];
+  if(k==='Wahlpflicht'){
+    var ue=c.baum.knoten.Wahlpflicht.gruppen||{}, abzugD=0, abzug=0;
+    Object.keys(ue).forEach(function(g){ abzug+=ue[g].ueberschuss; abzugD+=Math.max(0,ue[g].d-ue[g].max); });
+    return {d:o.d-abzugD, alle:c.all(o)-abzug, abzug:abzug};
+  }
+  return {d:o.d, alle:c.all(o), abzug:0};
+}
 function renderBand(c){
   var order=['Grundlagen','IEP','Wahlpflicht','Thesis','Wahlbereich'];
   var h='';
   order.forEach(function(k){
     var soll=c.soll[k]; if(soll<=0) return;
-    var o=c.S[k], d=Math.min(o.d,soll), a=Math.min(o.d+o.a+o.p,soll);
+    var z=zaehlt(c,k), d=Math.min(z.d,soll), a=Math.min(z.alle,soll);
     h+='<div class="seg" style="flex:'+soll+' 1 0;--sc:var('+BEREICHE[k].cv+')" title="'+esc(BEREICHE[k].name+': '+d+' bestanden, '+(a-d)+' laufend oder geplant, Soll '+soll)+' CP">'
      +'<div class="fp" style="width:'+(a/soll*100)+'%"></div><div class="fd" style="width:'+(d/soll*100)+'%"></div>'
      +'<div class="sl">'+esc(BEREICHE[k].name)+'</div></div>';
@@ -82,7 +93,8 @@ function renderBand(c){
     var o=c.S[k], soll=c.soll[k];
     var sub=(k==='Grundlagen')
       ? (c.all(o)+' CP eingetragen, höchstens '+S.grenzen.grundlagenMax+' zählen')
-      : (o.d+' bestanden, '+(o.a+o.p)+' laufend oder geplant, Soll '+soll);
+      : (o.d+' bestanden, '+(o.a+o.p)+' laufend oder geplant, Soll '+soll
+         +(zaehlt(c,k).abzug?' ('+zaehlt(c,k).abzug+' CP über der Grenze je Fachbereich zählen nicht)':''));
     r+='<div class="row" style="--sc:var('+BEREICHE[k].cv+')"><span class="dot"></span><div><b>'+esc(BEREICHE[k].name)+'</b><span>'+esc(sub)+'</span></div></div>';
   });
   $('#rows').innerHTML=r;

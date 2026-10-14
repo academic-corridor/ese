@@ -118,3 +118,81 @@ test('Warnung bei mehr als 36 CP in einem Semester', () => {
   assert.ok(cp > 36, 'Testdaten zu klein: ' + cp);
   assert.ok(texte(plan).some(x => x.startsWith('SoSe 27: ' + cp + ' CP sind viel')));
 });
+
+/* ---------- Regeln aus der Studienordnung (Anhang I, Studien- und Prüfungsplan) ---------- */
+
+function planMit(belegung) {
+  const plan = Z.neu(HEUTE);
+  Z.zeitraumAendern(plan, 'W2025', 6);
+  belegung.forEach(([nr, sem, ok]) => {
+    const m = plan.mods.find(x => x.nr === nr);
+    assert.ok(m, 'Modul ' + nr + ' fehlt im Katalog');
+    Object.assign(m, { sem, ok: !!ok });
+  });
+  return plan;
+}
+
+test('höchstens 32 CP je Fachbereich im Wahlpflichtbereich', () => {
+  /* 40 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik) */
+  const plan = planMit([['18-st-2010', 'W2025', 1], ['18-st-2060', 'W2025', 1], ['18-st-2080', 'W2025', 1],
+    ['18-hs-2030', 'S2026', 1], ['18-gt-2030', 'S2026', 1], ['18-bi-2010', 'S2026', 1], ['18-gt-2010', 'S2026', 1]]);
+  const c = R.berechne(plan, HEUTE);
+  assert.strictEqual(c.all(c.S.Wahlpflicht), 42);
+  assert.strictEqual(c.baum.knoten.Wahlpflicht.angerechnet.alle, 32);
+  assert.strictEqual(c.done, 32);
+  const t = texte(plan);
+  assert.ok(t.some(x => x.includes('42 CP aus dem Fachbereich Elektrotechnik und Informationstechnik') && x.includes('10 CP zählen nicht')));
+  assert.ok(t.includes('Wahlpflicht: 40 CP fehlen noch bis zum Soll von 72 CP.'));
+});
+
+test('Module ohne Modulnummer und aus anderen Fachbereichen bleiben unbegrenzt', () => {
+  const plan = planMit([['18-st-2010', 'W2025', 1], ['16-03-5010', 'W2025', 1], ['13-K3-M018', 'S2026', 1]]);
+  const c = R.berechne(plan, HEUTE);
+  assert.strictEqual(c.baum.knoten.Wahlpflicht.angerechnet.alle, 18);
+  assert.ok(!texte(plan).some(x => x.includes('je Fachbereich')));
+});
+
+test('höchstens zwei Mini-Forschungsprojekte', () => {
+  const zwei = planMit([['18-en-2020', 'W2025'], ['18-en-2024', 'S2026']]);
+  assert.ok(!texte(zwei).some(x => x.startsWith('Mini-Forschungsprojekte')));
+  const drei = planMit([['18-en-2020', 'W2025'], ['18-en-2024', 'S2026'], ['18-en-2026', 'W2026']]);
+  assert.ok(texte(drei).includes('Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden.'));
+});
+
+test('mindestens 5 CP aus Rechts- und Wirtschafts-, Gesellschafts- oder Humanwissenschaften', () => {
+  const ohne = planMit([['18-st-2010', 'W2025']]);
+  assert.ok(texte(ohne).some(x => x.includes('mindestens 5 CP') && x.includes('bisher 0 CP')));
+  const mit = planMit([['02-23-3001', 'W2025']]);   // Policy-Analyse, 5 CP, Fachbereich 02
+  assert.ok(!texte(mit).some(x => x.includes('mindestens 5 CP')));
+  /* Grundlagenmodule aus Fachbereich 01 zählen nicht, die Regel gilt nur für Wahlpflicht- und Wahlbereich */
+  const grundlagen = planMit([['01-10-1028/f', 'W2025'], ['01-60-1042/f', 'W2025']]);
+  assert.ok(texte(grundlagen).some(x => x.includes('mindestens 5 CP') && x.includes('bisher 0 CP')));
+});
+
+test('eigenes Modul ohne Nummer im Wahlbereich: Hinweis, die Modulnummer einzutragen', () => {
+  const plan = planMit([]);
+  const m = Z.neuesModul({ name: 'Studium Generale', cp: 5, bereich: 'Wahlbereich' }, 'sg');
+  m.sem = 'W2025'; plan.mods.push(m);
+  assert.ok(texte(plan).some(x => x.includes('Modulnummer eintragen')));
+  Z.aendereModul(m, { name: 'Studium Generale', nr: '03-01-1234', cp: 5, bereich: 'Wahlbereich' });
+  assert.ok(!texte(plan).some(x => x.includes('mindestens 5 CP')));
+});
+
+test('Thesis erst ab 75 CP', () => {
+  const frueh = planMit([['18-st-2010', 'W2025'], ['18-dy-5003', 'S2026']]);
+  assert.ok(texte(frueh).includes('Masterthesis im SoSe 26: Bis dahin sind 6 CP eingeplant. Das Thema wird erst ausgegeben, wenn mindestens 75 CP erworben sind.'));
+  const ohne = planMit([['18-st-2010', 'W2025']]);
+  assert.ok(!texte(ohne).some(x => x.startsWith('Masterthesis im')));
+});
+
+test('zweite Vertiefung und Mini-Forschungsprojekt in der Vertiefung', () => {
+  /* Multimodale Systeme 22 CP, Zukünftige Kraftwerke 20 CP */
+  const plan = planMit([['18-st-2010', 'W2025', 1], ['18-st-2060', 'W2025', 1], ['18-st-2080', 'W2025', 1], ['18-hs-2030', 'S2026', 1],
+    ['16-71-3024', 'S2026', 1], ['16-71-3033', 'S2026', 1], ['16-20-5010', 'W2026']]);
+  const t = texte(plan);
+  assert.ok(t.includes('Vertiefung erreicht: Multimodale Systeme (22 CP bestanden).'), t.join('\n'));
+  assert.ok(t.some(x => x.startsWith('Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (20 CP)')));
+  assert.ok(t.some(x => x.includes('soll laut Studienordnung ein Mini-Forschungsprojekt')));
+  const mitMfp = planMit([['18-st-2010', 'W2025', 1], ['18-st-2060', 'W2025', 1], ['18-st-2080', 'W2025', 1], ['18-en-2024', 'S2026']]);
+  assert.ok(!texte(mitMfp).some(x => x.includes('Mini-Forschungsprojekt absolviert')));
+});

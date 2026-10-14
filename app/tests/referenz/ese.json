@@ -105,6 +105,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP). Bei eigenen Modulen bitte die Modulnummer eintragen, sonst lässt sich das nicht prüfen."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -235,6 +239,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -352,6 +360,14 @@
     "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 51 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 19 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 57 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 25 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (121 CP Überschuss)."
    ],
@@ -362,6 +378,18 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (41 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (28 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
    ],
    [
     "info",
@@ -490,6 +518,22 @@
     "Wahlpflicht: Soll von 41 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 53 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 21 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 84 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 48 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 16 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 114 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 82 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (277 CP Überschuss)."
    ],
@@ -500,6 +544,34 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (76 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (51 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (22 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Mobilität und Transport (26 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (27 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "warn",
+    "Masterthesis im SoSe 26: Bis dahin sind 73 CP eingeplant. Das Thema wird erst ausgegeben, wenn mindestens 75 CP erworben sind."
    ],
    [
     "info",
@@ -673,6 +745,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -786,6 +862,10 @@
     "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 36 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (34 CP Überschuss)."
    ],
@@ -796,6 +876,14 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Erneuerbare Energien (31 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (21 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP). Bei eigenen Modulen bitte die Modulnummer eintragen, sonst lässt sich das nicht prüfen."
    ],
    [
     "info",
@@ -928,6 +1016,18 @@
     "Wahlpflicht: Soll von 62 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 33 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 1 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 46 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 14 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 71 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 39 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (101 CP Überschuss)."
    ],
@@ -938,6 +1038,30 @@
    [
     "ok",
     "Vertiefung erreicht: Multimodale Systeme (30 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Erneuerbare Energien (29 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (25 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (21 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -1098,6 +1222,22 @@
     "Wahlpflicht: Soll von 45 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 41 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 9 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 81 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 49 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 38 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 117 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 85 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (269 CP Überschuss)."
    ],
@@ -1108,6 +1248,38 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (35 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (32 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (29 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (37 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (28 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (21 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 5 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -1278,6 +1450,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Die Masterthesis (30 CP) ist noch nicht eingeplant."
    ],
    [
@@ -1387,6 +1563,10 @@
     "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 36 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (31 CP Überschuss)."
    ],
@@ -1397,6 +1577,22 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (24 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Erneuerbare Energien (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Energie, Bau, Infrastruktur) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -1533,6 +1729,14 @@
     "Wahlpflicht: Soll von 67 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 36 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 64 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 32 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (110 CP Überschuss)."
    ],
@@ -1543,6 +1747,22 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Erneuerbare Energien (42 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (26 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (20 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
    ],
    [
     "info",
@@ -1691,6 +1911,22 @@
     "Wahlpflicht: Soll von 46 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 44 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 12 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 75 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 43 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 46 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 14 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 89 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 57 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (245 CP Überschuss)."
    ],
@@ -1701,6 +1937,38 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (32 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Mobilität und Transport (27 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (20 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (23 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (30 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "warn",
+    "Masterthesis im SoSe 26: Bis dahin sind 45 CP eingeplant. Das Thema wird erst ausgegeben, wenn mindestens 75 CP erworben sind."
    ],
    [
     "info",
@@ -1866,6 +2134,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -1981,6 +2253,10 @@
    [
     "warn",
     "Noch keine Vertiefung: Mobilität und Transport liegt vorn mit 13 von 20 CP."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -2105,6 +2381,14 @@
     "Wahlpflicht: Soll von 61 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 54 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 22 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 67 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 35 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (115 CP Überschuss)."
    ],
@@ -2115,6 +2399,22 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (49 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (33 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Multimodale Systeme (31 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -2255,6 +2555,22 @@
     "Wahlpflicht: Soll von 43 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 47 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 15 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 90 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 58 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 76 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 44 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 88 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 56 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (299 CP Überschuss)."
    ],
@@ -2265,6 +2581,30 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (46 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (34 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (26 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (21 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Mobilität und Transport (28 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (20 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
    ],
    [
     "info",
@@ -2438,6 +2778,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -2553,6 +2897,14 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (22 CP)."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Energie, Bau, Infrastruktur) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -2673,6 +3025,14 @@
     "Wahlpflicht: Soll von 64 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 63 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 31 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 54 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 22 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (92 CP Überschuss)."
    ],
@@ -2683,6 +3043,26 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (37 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (23 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (35 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (21 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
    ],
    [
     "info",
@@ -2823,6 +3203,18 @@
     "Wahlpflicht: Soll von 41 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 93 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 61 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 60 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 28 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 109 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 77 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (271 CP Überschuss)."
    ],
@@ -2833,6 +3225,34 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Erneuerbare Energien (69 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Mobilität und Transport (30 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (29 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Multimodale Systeme (44 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (33 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (29 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -3042,6 +3462,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP). Bei eigenen Modulen bitte die Modulnummer eintragen, sonst lässt sich das nicht prüfen."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -3172,6 +3596,14 @@
    ],
    [
     "info",
+    "Im Themenbereich der Vertiefung (Multimodale Systeme) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -3293,6 +3725,14 @@
     "Wahlpflicht: Soll von 59 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 34 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 2 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 38 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (72 CP Überschuss)."
    ],
@@ -3303,6 +3743,18 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Mobilität und Transport (32 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Erneuerbare Energien (30 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (22 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -3427,6 +3879,22 @@
     "Wahlpflicht: Soll von 56 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 38 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 84 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 86 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 54 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 70 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 38 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (266 CP Überschuss)."
    ],
@@ -3437,6 +3905,30 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (38 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Multimodale Systeme (56 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (33 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Mobilität und Transport (35 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Zukünftige Kraftwerke (30 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (24 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 4 eingeplant, höchstens 2 können eingebracht werden."
    ],
    [
     "info",
@@ -3607,6 +4099,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -3730,6 +4226,18 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Erneuerbare Energien (26 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Multimodale Systeme (21 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP). Bei eigenen Modulen bitte die Modulnummer eintragen, sonst lässt sich das nicht prüfen."
    ],
    [
     "info",
@@ -3858,6 +4366,18 @@
     "Wahlpflicht: Soll von 61 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 45 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 13 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 36 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 69 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 37 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (131 CP Überschuss)."
    ],
@@ -3868,6 +4388,26 @@
    [
     "ok",
     "Vertiefung erreicht: Mobilität und Transport (23 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (23 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Erneuerbare Energien (22 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (23 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Mobilität und Transport) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -4016,6 +4556,18 @@
     "Wahlpflicht: Soll von 63 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 90 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 58 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 50 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 18 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 71 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 39 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (220 CP Überschuss)."
    ],
@@ -4026,6 +4578,30 @@
    [
     "ok",
     "Vertiefung erreicht: Energie, Bau, Infrastruktur (39 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Erneuerbare Energien (29 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (23 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (42 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (21 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (22 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Energie, Bau, Infrastruktur) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
    ],
    [
     "info",
@@ -4184,6 +4760,10 @@
    [
     "warn",
     "Noch keine Vertiefung: Erneuerbare Energien liegt vorn mit 5 von 20 CP."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -4414,6 +4994,18 @@
     "Wahlpflicht: Soll von 64 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 33 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 1 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 34 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 2 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 60 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 28 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (105 CP Überschuss)."
    ],
@@ -4424,6 +5016,22 @@
    [
     "ok",
     "Vertiefung erreicht: Energie, Bau, Infrastruktur (33 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Erneuerbare Energien (36 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Multimodale Systeme (27 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP). Bei eigenen Modulen bitte die Modulnummer eintragen, sonst lässt sich das nicht prüfen."
    ],
    [
     "info",
@@ -4592,6 +5200,22 @@
     "Wahlpflicht: Soll von 52 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 44 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 12 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 81 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 49 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 68 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 36 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 106 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 74 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (288 CP Überschuss)."
    ],
@@ -4602,6 +5226,34 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (42 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (28 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (39 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (29 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (40 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 4 eingeplant, höchstens 2 können eingebracht werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -4783,6 +5435,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -4900,12 +5556,24 @@
     "Wahlpflicht: Soll von 72 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 36 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (5 CP Überschuss)."
    ],
    [
     "ok",
     "Vertiefung erreicht: Energie, Bau, Infrastruktur (22 CP bestanden)."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Energie, Bau, Infrastruktur) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -5026,6 +5694,14 @@
     "Wahlpflicht: Soll von 57 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 39 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 7 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 67 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 35 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (80 CP Überschuss)."
    ],
@@ -5036,6 +5712,26 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Multimodale Systeme (28 CP)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Erneuerbare Energien (25 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (24 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (22 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Multimodale Systeme) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -5196,6 +5892,22 @@
     "Wahlpflicht: Soll von 45 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 37 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 5 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 84 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 66 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 34 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 98 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 66 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (273 CP Überschuss)."
    ],
@@ -5206,6 +5918,30 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (63 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Energie, Bau, Infrastruktur (34 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (26 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (35 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Mobilität und Transport (40 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (25 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 5 eingeplant, höchstens 2 können eingebracht werden."
    ],
    [
     "info",
@@ -5391,6 +6127,10 @@
    ],
    [
     "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "info",
     "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
    ],
    [
@@ -5514,6 +6254,10 @@
    [
     "ok",
     "Vertiefung mit Planung erreicht: Multimodale Systeme (21 CP)."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
    ],
    [
     "info",
@@ -5642,6 +6386,14 @@
     "Wahlpflicht: Soll von 56 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 39 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 7 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 35 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 3 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (61 CP Überschuss)."
    ],
@@ -5652,6 +6404,22 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (22 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (23 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "info",
+    "Im Wahlpflicht- und Wahlbereich zusammen sind mindestens 5 CP aus den Fachbereichen Rechts- und Wirtschaftswissenschaften, Gesellschafts- und Geschichtswissenschaften oder Humanwissenschaften nötig (bisher 0 CP)."
+   ],
+   [
+    "warn",
+    "Masterthesis im WiSe 26/27: Bis dahin sind 38 CP eingeplant. Das Thema wird erst ausgegeben, wenn mindestens 75 CP erworben sind."
    ],
    [
     "info",
@@ -5788,6 +6556,22 @@
     "Wahlpflicht: Soll von 56 CP ist mit Planung erreicht."
    ],
    [
+    "warn",
+    "Wahlpflicht: 37 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 5 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 69 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 37 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 64 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 32 CP zählen nicht."
+   ],
+   [
+    "warn",
+    "Wahlpflicht: 106 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 74 CP zählen nicht."
+   ],
+   [
     "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (270 CP Überschuss)."
    ],
@@ -5798,6 +6582,34 @@
    [
     "ok",
     "Vertiefung erreicht: Erneuerbare Energien (43 CP bestanden)."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Mobilität und Transport (25 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Zukünftige Kraftwerke (31 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung erreicht: Multimodale Systeme (20 CP bestanden). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (43 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "ok",
+    "Zweite Vertiefung mit Planung erreicht: Materialien (34 CP). Wird ebenfalls auf dem Zeugnis ausgewiesen."
+   ],
+   [
+    "info",
+    "Im Themenbereich der Vertiefung (Erneuerbare Energien) soll laut Studienordnung ein Mini-Forschungsprojekt absolviert werden."
+   ],
+   [
+    "warn",
+    "Mini-Forschungsprojekte: 3 eingeplant, höchstens 2 können eingebracht werden."
    ],
    [
     "info",
