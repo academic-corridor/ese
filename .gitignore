@@ -1,0 +1,10 @@
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Abhängigkeiten und Logs (aktuell keine, nur vorsorglich)
+node_modules/
+*.log
+
+# Persönliche Sicherungen des Plans (Button "Plan sichern") nicht ins Repository
+*-plan-*.json
