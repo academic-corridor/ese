@@ -1,4 +1,4 @@
-/* src/semester.js: Rechnen mit Semestern. Reine Funktionen, testbar mit `npm test`.
+/* app/src/kern/semester.js: Rechnen mit Semestern. Reine Funktionen, testbar mit `npm test`.
    Kennung: "W2026" = Wintersemester 2026/27, "S2027" = Sommersemester 2027.
    Wintersemester beginnt am 1. Oktober, Sommersemester am 1. April. */
 (function (root) {

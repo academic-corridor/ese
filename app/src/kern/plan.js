@@ -1,6 +1,6 @@
-/* src/zustand.js: Zustand des Plans, Sichern und Laden als Datei-Inhalt, eigene Module.
+/* app/src/kern/plan.js: Zustand des Plans, Sichern und Laden als Datei-Inhalt, eigene Module.
    Reine Funktionen ohne Browser-Zugriff, testbar mit `npm test`. Der Zugriff auf localStorage
-   und Dateien liegt in src/app.js.
+   und Dateien liegt in app/src/ui/app.js.
 
    Ein Plan sieht so aus:
      { start: "W2025", anzahl: 4, mods: [ ...Katalogmodule und eigene Module... ] }
@@ -13,8 +13,8 @@
 (function (root) {
   'use strict';
   var node = typeof module === 'object' && module.exports;
-  var S = node ? require('../data/ese-struktur.js') : root.ESE.Struktur;
-  var Katalog = node ? require('../data/module-ese.js') : root.ESE.Katalog;
+  var S = node ? require('../../../studiengaenge/ese/struktur.js') : root.ESE.Struktur;
+  var Katalog = node ? require('../../../studiengaenge/ese/module.js') : root.ESE.Katalog;
   var Sem = node ? require('./semester.js') : root.ESE.Semester;
 
   var KEY = 'ese-planer-v2';

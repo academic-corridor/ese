@@ -1,5 +1,5 @@
-/* src/app.js: Oberfläche (Darstellung, Ziehen und Ablegen, Dialoge, Browser-Speicher).
-   Rechenlogik: regeln.js. Semester: semester.js. Zustand und Prüfung von Dateien: zustand.js. Daten: ../data/. */
+/* app/src/ui/app.js: Oberfläche (Darstellung, Ziehen und Ablegen, Dialoge, Browser-Speicher).
+   Rechenlogik: regeln.js. Semester: semester.js. Zustand und Prüfung von Dateien: plan.js (alle in app/src/kern/). Daten: studiengaenge/. */
 (function(){
 "use strict";
 var $=function(s){return document.querySelector(s)};

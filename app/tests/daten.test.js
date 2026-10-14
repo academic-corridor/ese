@@ -1,8 +1,8 @@
 /* Prüft den Modulkatalog auf Konsistenz. Start: npm test */
 const test = require('node:test');
 const assert = require('node:assert');
-const S = require('../data/ese-struktur.js');
-const Katalog = require('../data/module-ese.js');
+const S = require('../../studiengaenge/ese/struktur.js');
+const Katalog = require('../../studiengaenge/ese/module.js');
 
 test('Katalog enthält alle 160 Module des Modulhandbuchs', () => {
   assert.strictEqual(Katalog.length, 160);

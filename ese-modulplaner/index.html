@@ -1,100 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ESE-Modulplaner</title>
-<meta name="description" content="Modulplaner für den Master Energy Science and Engineering an der TU Darmstadt. Läuft im Browser, ohne Anmeldung.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%230d6a73%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-family=%22Arial,sans-serif%22 font-size=%2219%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22%3EB%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="src/styles.css">
+<meta http-equiv="refresh" content="0; url=../">
+<link rel="canonical" href="../">
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <div>
-      <h1>ESE-Modulplaner</h1>
-      <p>Master Energy Science and Engineering, Prüfungsordnung (PO) 2023, 120 Credit Points (CP)</p>
-    </div>
-    <div class="actions">
-      <button class="btn iconbtn" id="btnHelp" title="Anleitung anzeigen" aria-label="Anleitung anzeigen">i</button>
-      <button class="btn" id="btnZeit">Zeitraum</button>
-      <button class="btn" id="btnSave">Plan sichern</button>
-      <button class="btn" id="btnLoad">Plan laden</button>
-      <button class="btn" id="btnExport">Plan als Text</button>
-      <button class="btn" id="btnTheme">Hell / Dunkel</button>
-      <button class="btn danger" id="btnReset">Plan leeren</button>
-    </div>
-  </header>
-
-  <section class="band-card" aria-label="Fortschritt über alle 120 CP">
-    <div class="band-head">
-      <h2>Dein Studium in 120 CP</h2>
-      <div class="band-nums"><div class="band-num" id="bandNum"></div><div class="band-grade" id="grade"></div></div>
-    </div>
-    <div class="band" id="band"></div>
-    <div class="legend">
-      <span><i class="s"></i>bestanden</span>
-      <span><i class="h"></i>laufend oder geplant</span>
-      <span><i></i>noch offen</span>
-    </div>
-    <div class="rows" id="rows"></div>
-  </section>
-
-  <main class="layout">
-    <aside class="panel sticky" id="catalogPanel">
-      <h3>Modulkatalog <span class="count" id="catCount"></span></h3>
-      <input class="search" id="q" type="search" placeholder="Modul oder Nummer suchen" aria-label="Module suchen">
-      <div class="chips" id="chips"></div>
-      <div class="selects">
-        <select id="fTurnus" aria-label="Nach Angebotsturnus filtern">
-          <option value="">Turnus: alle</option>
-          <option value="WiSe">nur Wintersemester</option>
-          <option value="SoSe">nur Sommersemester</option>
-          <option value="jedes">jedes Semester</option>
-          <option value="unklar">jedes 2./3. Semester oder offen</option>
-        </select>
-        <select id="fSprache" aria-label="Nach Sprache filtern">
-          <option value="">Sprache: alle</option>
-          <option value="de">Deutsch</option>
-          <option value="en">Englisch</option>
-        </select>
-      </div>
-      <div class="cat-zone" id="catZone"><div class="cat-list" id="catList"></div></div>
-      <p class="fine">Alle Module aus dem Modulhandbuch (Stand 01.10.2023). Ziehe ein Modul in ein Semester oder tippe es an. Häkchen an der Karte = bestanden. Fehlt ein Modul, lege es ganz oben im Katalog selbst an.</p>
-    </aside>
-
-    <section class="panel" aria-label="Semesterplan">
-      <h3>Semesterplan</h3>
-      <div class="grid" id="grid"></div>
-    </section>
-
-    <aside class="panel sticky">
-      <h3>Vertiefung</h3>
-      <div id="vert"></div>
-      <p class="fine">Eine Vertiefung braucht mindestens 20 CP in einem Themenbereich. Querschnittsthemen zählen dafür nicht.</p>
-      <div class="sep"></div>
-      <h3>Hinweise</h3>
-      <ul class="msgs" id="msgs"></ul>
-    </aside>
-  </main>
-
-  <footer class="foot">Dies ist kein offizielles Angebot der TU Darmstadt. Angaben ohne Gewähr, maßgeblich sind Prüfungsordnung, Studienplan und Modulhandbuch. Dein Plan bleibt in deinem Browser und wird nirgends hochgeladen.</footer>
-</div>
-
-<div id="pop" role="menu"></div>
-<div id="modal" role="dialog" aria-modal="true"></div>
-<div id="toast" role="status" aria-live="polite"></div>
-<input type="file" id="fileIn" accept=".json,application/json" hidden>
-
-<script src="data/ese-struktur.js"></script>
-<script src="data/module-ese.js"></script>
-<script src="src/semester.js"></script>
-<script src="src/regeln.js"></script>
-<script src="src/zustand.js"></script>
-<script src="src/app.js"></script>
+<p>Der Modulplaner ist umgezogen: <a href="../">zum Modulplaner</a>.</p>
 </body>
 </html>

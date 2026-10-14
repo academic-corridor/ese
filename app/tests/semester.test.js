@@ -1,7 +1,7 @@
 /* Prüft das Rechnen mit Semestern. */
 const test = require('node:test');
 const assert = require('node:assert');
-const Sem = require('../src/semester.js');
+const Sem = require('../src/kern/semester.js');
 
 test('laufendes Semester aus dem Datum', () => {
   assert.strictEqual(Sem.aktuell(new Date(2026, 9, 14)), 'W2026');  // 14.10.2026

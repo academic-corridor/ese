@@ -1,8 +1,8 @@
 /* Prüft Rechnung und Hinweise. Stichtag ist der 14.10.2026 (laufendes Semester WiSe 26/27). */
 const test = require('node:test');
 const assert = require('node:assert');
-const R = require('../src/regeln.js');
-const Z = require('../src/zustand.js');
+const R = require('../src/kern/regeln.js');
+const Z = require('../src/kern/plan.js');
 
 const HEUTE = new Date(2026, 9, 14);
 const texte = (plan) => R.hinweise(R.berechne(plan, HEUTE), plan).map(h => h[1]);

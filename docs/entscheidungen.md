@@ -37,4 +37,4 @@
 2. Anerkannte Leistungen (z. B. aus dem Bachelor) als eigene Spalte vor dem ersten Semester.
 3. Gesamtnote nach den Regeln der Prüfungsordnung berechnen.
 4. Erinnerung an "Plan sichern", wenn länger nicht gesichert wurde.
-5. WI-MB als zweiter Studiengang, sobald die Doppelanrechnung geklärt ist: gleiche Struktur mit eigener `data/`-Datei, Module mit Modulnummer in beiden Katalogen markieren.
+5. WI-MB als zweiter Studiengang, sobald die Doppelanrechnung geklärt ist: eigener Ordner unter `studiengaenge/`, siehe `docs/konzept-wi-mb.md`, Module mit Modulnummer in beiden Katalogen markieren.

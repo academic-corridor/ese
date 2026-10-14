@@ -1,7 +1,7 @@
 /* Prüft Zeitraum, Sichern, Laden und eigene Module. */
 const test = require('node:test');
 const assert = require('node:assert');
-const Z = require('../src/zustand.js');
+const Z = require('../src/kern/plan.js');
 
 const HEUTE = new Date(2026, 9, 14);
 const finde = (plan, nr) => plan.mods.find(m => m.nr === nr);

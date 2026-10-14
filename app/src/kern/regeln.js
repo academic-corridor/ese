@@ -1,5 +1,5 @@
-/* src/regeln.js: Rechenlogik und Prüfregeln. Reine Funktionen, kein Zugriff auf die Seite (DOM).
-   Dadurch testbar mit `npm test`. Zahlen kommen aus data/ese-struktur.js.
+/* app/src/kern/regeln.js: Rechenlogik und Prüfregeln. Reine Funktionen, kein Zugriff auf die Seite (DOM).
+   Dadurch testbar mit `npm test`. Zahlen kommen aus studiengaenge/ese/struktur.js.
 
    Ein Modul im Plan zählt als
      d  bestanden          (Häkchen gesetzt)
@@ -8,7 +8,7 @@
 (function (root) {
   'use strict';
   var node = typeof module === 'object' && module.exports;
-  var S = node ? require('../data/ese-struktur.js') : root.ESE.Struktur;
+  var S = node ? require('../../../studiengaenge/ese/struktur.js') : root.ESE.Struktur;
   var Sem = node ? require('./semester.js') : root.ESE.Semester;
   var G = S.grenzen;
 
