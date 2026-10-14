@@ -182,3 +182,9 @@ input[type=checkbox]{accent-color:var(--ok)}
 /* Fußzeile und Untertitel */
 .h1sub{font:500 16px var(--f-ui);color:var(--muted);margin-left:6px;letter-spacing:0}
 .foot{margin-top:18px;color:var(--muted);font-size:12px;text-align:center}
+
+/* Anleitung */
+.iconbtn{width:34px;padding:7px 0;text-align:center;font:700 15px var(--f-head);font-style:italic;border-radius:50%}
+.help{margin:0 0 12px;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.help li::marker{font-weight:700;color:var(--accent)}
+.help b{font-weight:600}

@@ -10,6 +10,8 @@ Beim ersten Öffnen ist der Plan leer. Unter **Zeitraum** stellst du deinen Stud
 
 ## Bedienung
 
+Beim ersten Besuch erscheint eine kurze Anleitung. Du erreichst sie jederzeit über das „i“ oben.
+
 | Was | Wie |
 |---|---|
 | Modul einplanen | aus dem Katalog in eine Semesterspalte ziehen, oder antippen und Semester wählen |

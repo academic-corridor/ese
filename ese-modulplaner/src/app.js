@@ -455,5 +455,29 @@ $('#fileIn').addEventListener('change',function(e){
   e.target.value='';
 });
 
+/* ---------- Anleitung (beim ersten Besuch und über das i oben) ---------- */
+var HILFE_KEY='ese-planer-hilfe-v1';
+function showHelp(){
+  openModal('<h3>So funktioniert der Planer</h3>'
+   +'<ol class="help">'
+   +'<li><b>Zeitraum festlegen.</b> Unter „Zeitraum“ stellst du Studienbeginn und Anzahl der Semester ein. Mit „+ Semester“ hängst du später weitere an.</li>'
+   +'<li><b>Module einplanen.</b> Ziehe ein Modul aus dem Katalog links in ein Semester. Auf dem Handy: Modul antippen und Semester wählen. Zurück in den Katalog geht es ebenfalls per Ziehen.</li>'
+   +'<li><b>Bestanden markieren.</b> Das Häkchen an der Karte setzt das Modul auf „bestanden“. Eine Note trägst du ein, indem du die Karte antippst.</li>'
+   +'<li><b>Fehlendes Modul?</b> Ganz oben im Katalog legst du ein eigenes Modul an, z. B. für das Studium Generale.</li>'
+   +'<li><b>Fortschritt prüfen.</b> Oben siehst du die Credit Points (CP) im Verhältnis zu den 120 CP. Rechts zeigt die Vertiefung, wie weit du bei den 20 CP in einem Themenbereich bist, darunter stehen Hinweise zu Angebotsturnus und Semesterlast.</li>'
+   +'<li><b>Speichern.</b> Dein Plan wird automatisch in diesem Browser gespeichert und verlässt ihn nicht. Für eine Sicherung oder ein anderes Gerät nutze „Plan sichern“ und „Plan laden“.</li>'
+   +'</ol>'
+   +'<p class="fine">Diese Anleitung erreichst du jederzeit über das „i“ oben. Angaben ohne Gewähr, maßgeblich sind Prüfungsordnung, Studienplan und Modulhandbuch.</p>'
+   +'<div class="bar"><button class="btn primary" id="hOK">Verstanden</button></div>');
+  $('#hOK').addEventListener('click',closeModal);
+  $('#hOK').focus();
+}
+$('#btnHelp').addEventListener('click',showHelp);
+
 load(); render();
+(function(){
+  var seen=false;
+  try{seen=localStorage.getItem(HILFE_KEY)==='1'; localStorage.setItem(HILFE_KEY,'1')}catch(e){}
+  if(!seen) showHelp();
+})();
 })();

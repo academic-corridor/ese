@@ -1,5 +1,9 @@
 # Änderungsprotokoll
 
+## 0.3.1 (14.10.2026)
+
+- Kurze Anleitung als Fenster beim ersten Besuch; über das „i“ oben jederzeit erneut abrufbar.
+
 ## 0.3.0 (14.10.2026): erste öffentliche Version
 
 - Modulkatalog mit allen 160 Modulen aus dem Modulhandbuch ESE (PO 2023, Stand 01.10.2023), mit Unterbereich, Turnus und Sprache.
