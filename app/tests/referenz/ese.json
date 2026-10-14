@@ -231,6 +231,10 @@
    ],
    [
     "info",
+    "Wahlpflicht: 27 von höchstens 32 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften) eingeplant, noch 5 CP frei."
+   ],
+   [
+    "info",
     "Grundlagenmodule (8 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
    ],
    [
@@ -361,11 +365,15 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 51 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 19 CP zählen nicht."
+    "Wahlpflicht: 57 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 25 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 57 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 25 CP zählen nicht."
+    "Wahlpflicht: 51 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 19 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 30 von höchstens 32 CP aus Fachbereich 11 (Material- und Geowissenschaften) eingeplant, noch 2 CP frei."
    ],
    [
     "info",
@@ -519,19 +527,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 53 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 21 CP zählen nicht."
+    "Wahlpflicht: 114 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 82 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 84 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
+    "Wahlpflicht: 84 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 48 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 16 CP zählen nicht."
+    "Wahlpflicht: 53 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 21 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 114 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 82 CP zählen nicht."
+    "Wahlpflicht: 48 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 16 CP zählen nicht."
    ],
    [
     "info",
@@ -863,7 +871,11 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 36 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+    "Wahlpflicht: 36 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 26 von höchstens 32 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik) eingeplant, noch 6 CP frei."
    ],
    [
     "info",
@@ -1017,15 +1029,15 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 33 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 1 CP zählen nicht."
+    "Wahlpflicht: 71 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 39 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 46 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 14 CP zählen nicht."
+    "Wahlpflicht: 46 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 14 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 71 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 39 CP zählen nicht."
+    "Wahlpflicht: 33 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 1 CP zählen nicht."
    ],
    [
     "info",
@@ -1223,19 +1235,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 41 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 9 CP zählen nicht."
+    "Wahlpflicht: 117 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 85 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 81 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 49 CP zählen nicht."
+    "Wahlpflicht: 81 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 49 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 38 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
+    "Wahlpflicht: 41 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 9 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 117 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 85 CP zählen nicht."
+    "Wahlpflicht: 38 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
    ],
    [
     "info",
@@ -1564,7 +1576,11 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 36 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+    "Wahlpflicht: 36 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 30 von höchstens 32 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik) eingeplant, noch 2 CP frei."
    ],
    [
     "info",
@@ -1730,11 +1746,15 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 36 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+    "Wahlpflicht: 64 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 32 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 64 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 32 CP zählen nicht."
+    "Wahlpflicht: 36 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 30 von höchstens 32 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften) eingeplant, noch 2 CP frei."
    ],
    [
     "info",
@@ -1912,19 +1932,23 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 44 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 12 CP zählen nicht."
+    "Wahlpflicht: 89 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 57 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 75 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 43 CP zählen nicht."
+    "Wahlpflicht: 75 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 43 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 46 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 14 CP zählen nicht."
+    "Wahlpflicht: 46 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 14 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 89 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 57 CP zählen nicht."
+    "Wahlpflicht: 44 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 12 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 28 von höchstens 32 CP aus Fachbereich 07 (Chemie) eingeplant, noch 4 CP frei."
    ],
    [
     "info",
@@ -2382,11 +2406,11 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 54 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 22 CP zählen nicht."
+    "Wahlpflicht: 67 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 35 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 67 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 35 CP zählen nicht."
+    "Wahlpflicht: 54 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 22 CP zählen nicht."
    ],
    [
     "info",
@@ -2556,19 +2580,23 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 47 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 15 CP zählen nicht."
+    "Wahlpflicht: 90 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 58 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 90 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 58 CP zählen nicht."
+    "Wahlpflicht: 88 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 56 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 76 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 44 CP zählen nicht."
+    "Wahlpflicht: 76 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 44 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 88 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 56 CP zählen nicht."
+    "Wahlpflicht: 47 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 15 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 30 von höchstens 32 CP aus Fachbereich 07 (Chemie) eingeplant, noch 2 CP frei."
    ],
    [
     "info",
@@ -3026,11 +3054,11 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 63 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 31 CP zählen nicht."
+    "Wahlpflicht: 63 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 31 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 54 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 22 CP zählen nicht."
+    "Wahlpflicht: 54 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 22 CP zählen nicht."
    ],
    [
     "info",
@@ -3204,15 +3232,23 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 93 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 61 CP zählen nicht."
+    "Wahlpflicht: 109 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 77 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 60 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 28 CP zählen nicht."
+    "Wahlpflicht: 93 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 61 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 109 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 77 CP zählen nicht."
+    "Wahlpflicht: 60 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 28 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 30 von höchstens 32 CP aus Fachbereich 05 (Physik) eingeplant, noch 2 CP frei."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 26 von höchstens 32 CP aus Fachbereich 11 (Material- und Geowissenschaften) eingeplant, noch 6 CP frei."
    ],
    [
     "info",
@@ -3584,6 +3620,14 @@
    ],
    [
     "info",
+    "Wahlpflicht: 28 von höchstens 32 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik) eingeplant, noch 4 CP frei."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 27 von höchstens 32 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften) eingeplant, noch 5 CP frei."
+   ],
+   [
+    "info",
     "Wahlpflicht: Über 72 CP zählen nicht mehr (28 CP Überschuss)."
    ],
    [
@@ -3726,11 +3770,15 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 34 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 2 CP zählen nicht."
+    "Wahlpflicht: 38 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 38 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
+    "Wahlpflicht: 34 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 2 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 27 von höchstens 32 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften) eingeplant, noch 5 CP frei."
    ],
    [
     "info",
@@ -3880,19 +3928,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 38 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
+    "Wahlpflicht: 86 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 54 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 84 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
+    "Wahlpflicht: 84 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 86 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 54 CP zählen nicht."
+    "Wahlpflicht: 70 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 38 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 70 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 38 CP zählen nicht."
+    "Wahlpflicht: 38 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 6 CP zählen nicht."
    ],
    [
     "info",
@@ -4367,15 +4415,15 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 45 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 13 CP zählen nicht."
+    "Wahlpflicht: 69 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 37 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 36 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+    "Wahlpflicht: 45 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 13 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 69 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 37 CP zählen nicht."
+    "Wahlpflicht: 36 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
    ],
    [
     "info",
@@ -4557,15 +4605,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 90 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 58 CP zählen nicht."
+    "Wahlpflicht: 90 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 58 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 50 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 18 CP zählen nicht."
+    "Wahlpflicht: 71 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 39 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 71 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 39 CP zählen nicht."
+    "Wahlpflicht: 50 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 18 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 26 von höchstens 32 CP aus Fachbereich 07 (Chemie) eingeplant, noch 6 CP frei."
    ],
    [
     "info",
@@ -4873,6 +4925,10 @@
    ],
    [
     "info",
+    "Wahlpflicht: 26 von höchstens 32 CP aus Fachbereich 16 (Maschinenbau) eingeplant, noch 6 CP frei."
+   ],
+   [
+    "info",
     "Grundlagenmodule (3 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
    ],
    [
@@ -4995,15 +5051,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 33 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 1 CP zählen nicht."
+    "Wahlpflicht: 60 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 28 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 34 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 2 CP zählen nicht."
+    "Wahlpflicht: 34 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 2 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 60 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 28 CP zählen nicht."
+    "Wahlpflicht: 33 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 1 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 26 von höchstens 32 CP aus Fachbereich 11 (Material- und Geowissenschaften) eingeplant, noch 6 CP frei."
    ],
    [
     "info",
@@ -5201,19 +5261,23 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 44 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 12 CP zählen nicht."
+    "Wahlpflicht: 106 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 74 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 81 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 49 CP zählen nicht."
+    "Wahlpflicht: 81 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 49 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 68 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 36 CP zählen nicht."
+    "Wahlpflicht: 68 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 36 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 106 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 74 CP zählen nicht."
+    "Wahlpflicht: 44 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 12 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 26 von höchstens 32 CP aus Fachbereich 07 (Chemie) eingeplant, noch 6 CP frei."
    ],
    [
     "info",
@@ -5557,7 +5621,7 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 36 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
+    "Wahlpflicht: 36 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 4 CP zählen nicht."
    ],
    [
     "info",
@@ -5695,11 +5759,15 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 39 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 7 CP zählen nicht."
+    "Wahlpflicht: 67 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 35 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 67 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 35 CP zählen nicht."
+    "Wahlpflicht: 39 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 7 CP zählen nicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: 28 von höchstens 32 CP aus Fachbereich 16 (Maschinenbau) eingeplant, noch 4 CP frei."
    ],
    [
     "info",
@@ -5893,19 +5961,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 37 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 5 CP zählen nicht."
+    "Wahlpflicht: 98 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 66 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 84 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
+    "Wahlpflicht: 84 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 52 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 66 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 34 CP zählen nicht."
+    "Wahlpflicht: 66 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 34 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 98 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 66 CP zählen nicht."
+    "Wahlpflicht: 37 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 5 CP zählen nicht."
    ],
    [
     "info",
@@ -6387,11 +6455,11 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 39 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 7 CP zählen nicht."
+    "Wahlpflicht: 39 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 7 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 35 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 3 CP zählen nicht."
+    "Wahlpflicht: 35 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 3 CP zählen nicht."
    ],
    [
     "info",
@@ -6557,19 +6625,19 @@
    ],
    [
     "warn",
-    "Wahlpflicht: 37 CP aus dem Fachbereich Material- und Geowissenschaften. Höchstens 32 CP je Fachbereich zählen, 5 CP zählen nicht."
+    "Wahlpflicht: 106 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik). Höchstens 32 CP je Fachbereich zählen, 74 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 69 CP aus dem Fachbereich Bau- und Umweltingenieurwissenschaften. Höchstens 32 CP je Fachbereich zählen, 37 CP zählen nicht."
+    "Wahlpflicht: 69 CP aus Fachbereich 13 (Bau- und Umweltingenieurwissenschaften). Höchstens 32 CP je Fachbereich zählen, 37 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 64 CP aus dem Fachbereich Maschinenbau. Höchstens 32 CP je Fachbereich zählen, 32 CP zählen nicht."
+    "Wahlpflicht: 64 CP aus Fachbereich 16 (Maschinenbau). Höchstens 32 CP je Fachbereich zählen, 32 CP zählen nicht."
    ],
    [
     "warn",
-    "Wahlpflicht: 106 CP aus dem Fachbereich Elektrotechnik und Informationstechnik. Höchstens 32 CP je Fachbereich zählen, 74 CP zählen nicht."
+    "Wahlpflicht: 37 CP aus Fachbereich 11 (Material- und Geowissenschaften). Höchstens 32 CP je Fachbereich zählen, 5 CP zählen nicht."
    ],
    [
     "info",

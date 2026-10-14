@@ -140,6 +140,7 @@ input[type=checkbox]{accent-color:var(--ok)}
 .vbar .d{position:absolute;inset:0 auto 0 0;background:var(--sc)}
 .vbar .p{position:absolute;inset:0 auto 0 0;background:repeating-linear-gradient(135deg,var(--sc) 0 3px,transparent 3px 7px);opacity:.5}
 .vbar .mk{position:absolute;right:0;top:-1px;bottom:-1px;width:2px;background:var(--ink)}
+.fbrow.over .vt b{color:var(--warn)}
 .msgs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
 .msgs li{padding:7px 9px;border-radius:8px;border:1px solid var(--line);background:var(--surface2);font-size:13px;border-left-width:4px}
 .msgs li.ok{border-left-color:var(--ok)}
@@ -188,3 +189,88 @@ input[type=checkbox]{accent-color:var(--ok)}
 .help{margin:0 0 12px;padding-left:20px;display:flex;flex-direction:column;gap:8px}
 .help li::marker{font-weight:700;color:var(--accent)}
 .help b{font-weight:600}
+
+/* Filter (ausklappbar) */
+.filters{margin:10px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface2)}
+.filters summary{display:flex;align-items:center;gap:8px;padding:8px 12px;cursor:pointer;list-style:none;font-size:13px}
+.filters summary::-webkit-details-marker{display:none}
+.filters .ft{font:700 13.5px var(--f-head)}
+.filters .fsum{flex:1;min-width:0;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.filters.aktiv .fsum{color:var(--accent);font-weight:600}
+.filters[open] .chev{transform:rotate(45deg)}
+.fbody{padding:0 12px 12px}
+.fl{font-size:12px;font-weight:600;color:var(--muted);margin:10px 0 6px}
+.fl small{font-weight:400}
+.fbody .chips{margin:0}
+.fbody .selects{margin:0}
+.fbchip small{color:var(--muted)}
+.fbchip[aria-pressed="true"] small{color:inherit;opacity:.75}
+.fbnr{display:inline-block;min-width:22px;padding:0 4px;border-radius:4px;background:var(--surface2);border:1px solid var(--line);font-size:11px;font-weight:600;text-align:center;font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"] .fbnr{background:transparent;border-color:currentColor}
+.freset{margin-top:10px;border:0;background:none;padding:0;color:var(--accent);font-size:12.5px;font-weight:600;cursor:pointer;text-decoration:underline}
+
+/* Kapitel im Katalog */
+.grp{border:1px solid var(--line);border-radius:10px;background:var(--surface2);overflow:hidden}
+.grp-h{display:flex;align-items:center;gap:8px;width:100%;border:0;background:none;padding:10px 12px;cursor:pointer;text-align:left;font:700 13.5px var(--f-head)}
+.grp-h:hover{background:color-mix(in srgb,var(--accent) 8%,transparent)}
+.grp-h .gn{flex:1;min-width:0}
+.grp-h .gc{font:500 12px var(--f-ui);color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:0 8px}
+.chev{width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(-45deg);transition:transform .15s;margin:0 3px;flex:none}
+.grp.open .chev{transform:rotate(45deg)}
+.grp-b{display:flex;flex-direction:column;gap:7px;padding:2px 8px 10px}
+.grp-b .group-u:first-child{margin-top:2px}
+
+/* Fortschrittsbalken je Bereich (nur schmale Bildschirme) */
+.rbar{display:none;position:relative;height:8px;margin-top:5px;background:var(--surface2);border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.rbar i{position:absolute;inset:0 auto 0 0}
+.rbar .d{background:var(--sc)}
+.rbar .p{background:repeating-linear-gradient(135deg,var(--sc) 0 3px,transparent 3px 7px);opacity:.5}
+
+/* Kopfleiste und Menü */
+.tools{display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap}
+.menubtn,.drawer-head,#drawerBack{display:none}
+.title{min-width:0}
+
+/* Einspaltig (Tablet und Handy): Semesterplan vor Katalog, dann Vertiefung */
+@media (max-width:1179px){
+  #planPanel{order:1}
+  #catalogPanel{order:2}
+  #checkPanel{order:3}
+}
+
+/* Handy */
+@media (max-width:759px){
+  .wrap{padding:12px 12px 32px}
+  .top{flex-wrap:nowrap;align-items:center;margin-bottom:10px}
+  .top h1{font-size:22px}
+  .top p{font-size:12px;line-height:1.35}
+  .tools{flex-wrap:nowrap;flex:none}
+  .menubtn{display:inline-block}
+  #drawerBack{display:block;position:fixed;inset:0;z-index:55;background:rgba(8,18,26,.5);opacity:0;pointer-events:none;transition:opacity .2s}
+  .menu-open #drawerBack{opacity:1;pointer-events:auto}
+  .actions{position:fixed;z-index:60;top:0;right:0;bottom:0;width:min(300px,85vw);flex-direction:column;flex-wrap:nowrap;gap:8px;padding:calc(14px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px));background:var(--surface);border-left:1px solid var(--line);box-shadow:-8px 0 28px rgba(0,0,0,.25);transform:translateX(105%);visibility:hidden;transition:transform .2s,visibility .2s;overflow:auto}
+  .menu-open .actions{transform:none;visibility:visible}
+  .actions>*{flex:none}
+  .actions .btn{width:100%;text-align:left;padding:11px 12px}
+  .actions .btn.iconbtn{width:34px;padding:7px 0;text-align:center}
+  .drawer-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font:700 17px var(--f-head)}
+
+  .band-card{padding:14px}
+  .band-head{flex-direction:column;align-items:flex-start;gap:6px}
+  .band-nums{gap:4px 14px}
+  .band{display:none}
+  .rows{grid-template-columns:1fr;gap:12px;margin-top:10px}
+  .rbar{display:block}
+  .row{align-items:flex-start}
+  .legend{gap:6px 14px;margin-top:8px}
+
+  .panel{padding:12px}
+  .grid{scroll-snap-type:x proximity;margin:0 -4px;padding:0 4px 8px}
+  .col{flex:0 0 78vw;min-width:0;scroll-snap-align:start}
+  .addcol{flex:0 0 64px}
+  .chk input{width:20px;height:20px}
+  .card{padding:9px 10px}
+  .grp-h{padding:13px 12px}
+  .filters summary{padding:11px 12px}
+}
+

@@ -17,6 +17,7 @@
       wahlbereich: 12,
       vertiefungMin: 20,
       wahlpflichtJeFachbereich: 32,  /* höchstens 32 CP im Wahlpflichtbereich aus dem Angebot eines Fachbereichs */
+      fachbereichVorwarnung: 6,      /* Hinweis, sobald nur noch so viele CP bis zur Grenze frei sind */
       miniForschungMax: 2,           /* höchstens zwei Mini-Forschungsprojekte */
       fachfremdMin: 5,               /* mind. 5 CP aus FB 01, 02 oder 03 im Wahlpflicht- und Wahlbereich */
       thesisVorher: 75,              /* Thema der Thesis erst ab 75 erworbenen CP */
@@ -52,6 +53,12 @@
       '03': 'Humanwissenschaften', '04': 'Mathematik', '05': 'Physik', '07': 'Chemie', '10': 'Biologie',
       '11': 'Material- und Geowissenschaften', '13': 'Bau- und Umweltingenieurwissenschaften',
       '15': 'Architektur', '16': 'Maschinenbau', '18': 'Elektrotechnik und Informationstechnik', '20': 'Informatik'
+    },
+    /* Kurznamen für Filter und Übersicht */
+    fachbereicheKurz: {
+      '01': 'Recht und Wirtschaft', '02': 'Gesellschaft und Geschichte', '03': 'Humanwissenschaften', '04': 'Mathematik',
+      '05': 'Physik', '07': 'Chemie', '10': 'Biologie', '11': 'Material und Geo', '13': 'Bau und Umwelt',
+      '15': 'Architektur', '16': 'Maschinenbau', '18': 'Elektrotechnik', '20': 'Informatik'
     },
     /* Notenstufen an der TU Darmstadt */
     noten: [1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0]

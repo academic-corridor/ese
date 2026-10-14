@@ -63,12 +63,20 @@
     S.themen.forEach(function (t) { T[t.id] = K[t.id].roh; });
 
     var grundlagen = K.Grundlagen.angerechnet.alle;
+    /* Wahlpflicht nach Fachbereich (aus den ersten beiden Stellen der Modulnummer) */
+    var fbListe = Object.keys(K.Wahlpflicht.gruppen || {}).map(function (fb) {
+      var g = K.Wahlpflicht.gruppen[fb];
+      return { fb: fb, name: S.fachbereiche[fb] || '', d: g.d, alle: g.alle, max: g.max, ueberschuss: g.ueberschuss,
+               frei: Math.max(0, g.max - g.alle) };
+    }).sort(function (a, b) { return b.alle - a.alle || (a.fb < b.fb ? -1 : 1); });
+    var ohneFb = 0;
+    eintraege.forEach(function (e) { if (e.gruppe === null && (e.knoten === 'Wahlpflicht' || themaName(e.knoten))) ohneFb += e.cp; });
     var needWP = K.Wahlpflicht.soll;
     var soll = { Grundlagen: grundlagen, IEP: G.iep, Wahlpflicht: needWP, Thesis: G.thesis, Wahlbereich: G.wahlbereich };
     var all = function (o) { return o.d + o.a + o.p; };
     return { S: Sum, T: T, load: load, aktuell: aktuell, G: grundlagen, needWP: needWP, soll: soll, all: all,
              done: K.gesamt.angerechnet.d, total: K.gesamt.angerechnet.alle, noten: notenschnitt(plan.mods),
-             baum: baum, zusatz: zusatz };
+             baum: baum, zusatz: zusatz, fachbereiche: { liste: fbListe, ohneNummer: ohneFb } };
   }
 
   /* true, wenn ein Wintersemester-Modul im Sommersemester steht (oder umgekehrt) */
@@ -83,10 +91,13 @@
     var WP = c.baum.knoten.Wahlpflicht, wp = c.all(c.S.Wahlpflicht), wpZaehlt = WP.angerechnet.alle;
     if (wpZaehlt < c.needWP) msgs.push(['warn', 'Wahlpflicht: ' + (c.needWP - wpZaehlt) + ' CP fehlen noch bis zum Soll von ' + c.needWP + ' CP.']);
     else msgs.push(['ok', 'Wahlpflicht: Soll von ' + c.needWP + ' CP ist mit Planung erreicht.']);
-    Object.keys(WP.gruppen || {}).forEach(function (fb) {
-      var g = WP.gruppen[fb];
-      if (g.ueberschuss) msgs.push(['warn', 'Wahlpflicht: ' + g.alle + ' CP aus dem Fachbereich ' + (S.fachbereiche[fb] || fb) +
-        '. Höchstens ' + g.max + ' CP je Fachbereich zählen, ' + g.ueberschuss + ' CP zählen nicht.']);
+    c.fachbereiche.liste.forEach(function (f) {
+      var wer = 'Fachbereich ' + f.fb + (f.name ? ' (' + f.name + ')' : '');
+      if (f.ueberschuss) msgs.push(['warn', 'Wahlpflicht: ' + f.alle + ' CP aus ' + wer + '. Höchstens ' + f.max +
+        ' CP je Fachbereich zählen, ' + f.ueberschuss + ' CP zählen nicht.']);
+      else if (f.frei === 0) msgs.push(['info', 'Wahlpflicht: Grenze von ' + f.max + ' CP aus ' + wer + ' erreicht. Weitere Module von dort zählen nicht mehr.']);
+      else if (f.frei <= G.fachbereichVorwarnung) msgs.push(['info', 'Wahlpflicht: ' + f.alle + ' von höchstens ' + f.max +
+        ' CP aus ' + wer + ' eingeplant, noch ' + f.frei + ' CP frei.']);
     });
     if (wp > G.wahlpflichtMax) msgs.push(['info', 'Wahlpflicht: Über ' + G.wahlpflichtMax + ' CP zählen nicht mehr (' + (wp - G.wahlpflichtMax) + ' CP Überschuss).']);
     if (c.all(c.S.Grundlagen) > 0) msgs.push(['info', 'Grundlagenmodule (' + c.G + ' CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf ' + (G.basisPlusWahlpflicht - G.iep - G.thesis) + ' CP.']);

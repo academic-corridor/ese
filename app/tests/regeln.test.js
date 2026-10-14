@@ -141,7 +141,7 @@ test('höchstens 32 CP je Fachbereich im Wahlpflichtbereich', () => {
   assert.strictEqual(c.baum.knoten.Wahlpflicht.angerechnet.alle, 32);
   assert.strictEqual(c.done, 32);
   const t = texte(plan);
-  assert.ok(t.some(x => x.includes('42 CP aus dem Fachbereich Elektrotechnik und Informationstechnik') && x.includes('10 CP zählen nicht')));
+  assert.ok(t.some(x => x.includes('42 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik)') && x.includes('10 CP zählen nicht')));
   assert.ok(t.includes('Wahlpflicht: 40 CP fehlen noch bis zum Soll von 72 CP.'));
 });
 
@@ -150,6 +150,16 @@ test('Module ohne Modulnummer und aus anderen Fachbereichen bleiben unbegrenzt',
   const c = R.berechne(plan, HEUTE);
   assert.strictEqual(c.baum.knoten.Wahlpflicht.angerechnet.alle, 18);
   assert.ok(!texte(plan).some(x => x.includes('je Fachbereich')));
+  assert.deepStrictEqual(c.fachbereiche.liste.map(f => [f.fb, f.alle, f.frei]), [['13', 6, 26], ['16', 6, 26], ['18', 6, 26]]);
+});
+
+test('Vorwarnung, wenn nur noch wenige CP bis zur Fachbereichsgrenze frei sind', () => {
+  /* 28 CP aus Fachbereich 18 */
+  const plan = planMit([['18-st-2010', 'W2025'], ['18-st-2060', 'W2025'], ['18-st-2080', 'W2025'], ['18-hs-2030', 'S2026'], ['18-st-2040', 'S2026']]);
+  const t = texte(plan);
+  assert.ok(t.includes('Wahlpflicht: 28 von höchstens 32 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik) eingeplant, noch 4 CP frei.'), t.join('\n'));
+  const voll = planMit([['18-st-2010', 'W2025'], ['18-st-2060', 'W2025'], ['18-st-2080', 'W2025'], ['18-hs-2030', 'S2026'], ['18-st-2040', 'S2026'], ['18-st-2070', 'S2026']]);
+  assert.ok(texte(voll).includes('Wahlpflicht: Grenze von 32 CP aus Fachbereich 18 (Elektrotechnik und Informationstechnik) erreicht. Weitere Module von dort zählen nicht mehr.'));
 });
 
 test('höchstens zwei Mini-Forschungsprojekte', () => {

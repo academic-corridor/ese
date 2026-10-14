@@ -20,6 +20,8 @@ Beim ersten Besuch erscheint eine kurze Anleitung. Du erreichst sie jederzeit ü
 | Themenbereich wählen | Karte antippen, "zählt für" (nur bei Modulen, die in mehreren Themenbereichen stehen) |
 | Zurück in den Katalog | zurück in den Katalog ziehen, oder Karte antippen |
 | Eigenes Modul (z. B. Studium Generale) | Feld **Eigenes Modul anlegen** ganz oben im Katalog. Ist ein Themenfilter aktiv, wird der Themenbereich vorbelegt, sonst der Wahlbereich; ein Suchbegriff wird als Name übernommen. Bearbeiten oder löschen über Antippen der Karte |
+| Katalog filtern | **Filter** über dem Katalog aufklappen: Themenbereich, Fachbereich (mehrere wählbar), Turnus, Sprache. Die aktiven Filter stehen in der zugeklappten Zeile |
+| Fachbereiche im Blick | Rechts unter **Wahlpflicht nach Fachbereich**: CP je Fachbereich bis zur Grenze von 32 CP (gelb ab 26 CP, rot darüber). Der Fachbereich steht in den ersten beiden Stellen der Modulnummer |
 | Semester anhängen | **+ Semester** rechts im Semesterplan; leeres letztes Semester mit "entfernen" |
 
 Status einer Karte: mit Häkchen = bestanden, im laufenden Semester ohne Häkchen = läuft, sonst = geplant. Das laufende Semester ist farbig umrandet.

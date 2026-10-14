@@ -15,12 +15,15 @@
 <body>
 <div class="wrap">
   <header class="top">
-    <div>
+    <div class="title">
       <h1>ESE-Modulplaner</h1>
       <p>Master Energy Science and Engineering, Prüfungsordnung (PO) 2023, 120 Credit Points (CP)</p>
     </div>
-    <div class="actions">
+    <div class="tools">
       <button class="btn iconbtn" id="btnHelp" title="Anleitung anzeigen" aria-label="Anleitung anzeigen">i</button>
+      <button class="btn menubtn" id="btnMenu" aria-label="Menü öffnen" aria-expanded="false" aria-controls="actions">Menü</button>
+    <div class="actions" id="actions">
+      <div class="drawer-head"><b>Menü</b><button class="btn iconbtn" id="btnMenuClose" aria-label="Menü schließen">×</button></div>
       <button class="btn" id="btnZeit">Zeitraum</button>
       <button class="btn" id="btnSave">Plan sichern</button>
       <button class="btn" id="btnLoad">Plan laden</button>
@@ -28,7 +31,9 @@
       <button class="btn" id="btnTheme">Hell / Dunkel</button>
       <button class="btn danger" id="btnReset">Plan leeren</button>
     </div>
+    </div>
   </header>
+  <div id="drawerBack"></div>
 
   <section class="band-card" aria-label="Fortschritt über alle 120 CP">
     <div class="band-head">
@@ -45,10 +50,17 @@
   </section>
 
   <main class="layout">
-    <aside class="panel sticky" id="catalogPanel">
+    <aside class="panel sticky" id="catalogPanel" aria-label="Modulkatalog">
       <h3>Modulkatalog <span class="count" id="catCount"></span></h3>
       <input class="search" id="q" type="search" placeholder="Modul oder Nummer suchen" aria-label="Module suchen">
-      <div class="chips" id="chips"></div>
+      <details class="filters" id="filters">
+        <summary><span class="ft">Filter</span><span class="fsum" id="fSum">keine aktiv</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="fbody">
+          <div class="fl">Themenbereich</div>
+          <div class="chips" id="chips"></div>
+          <div class="fl">Fachbereich <small>(erste beiden Stellen der Modulnummer, mehrere wählbar)</small></div>
+          <div class="chips" id="fbChips"></div>
+          <div class="fl">Turnus und Sprache</div>
       <div class="selects">
         <select id="fTurnus" aria-label="Nach Angebotsturnus filtern">
           <option value="">Turnus: alle</option>
@@ -63,19 +75,26 @@
           <option value="en">Englisch</option>
         </select>
       </div>
+          <button type="button" class="freset" id="fReset">Alle Filter zurücksetzen</button>
+        </div>
+      </details>
       <div class="cat-zone" id="catZone"><div class="cat-list" id="catList"></div></div>
-      <p class="fine">Alle Module aus dem Modulhandbuch (Stand 01.10.2023). Ziehe ein Modul in ein Semester oder tippe es an. Häkchen an der Karte = bestanden. Fehlt ein Modul, lege es ganz oben im Katalog selbst an.</p>
+      <p class="fine">Alle Module aus dem Modulhandbuch (Stand 01.10.2023). Öffne ein Kapitel und ziehe ein Modul in ein Semester oder tippe es an. Häkchen an der Karte = bestanden. Fehlt ein Modul, lege es ganz oben im Katalog selbst an.</p>
     </aside>
 
-    <section class="panel" aria-label="Semesterplan">
+    <section class="panel" id="planPanel" aria-label="Semesterplan">
       <h3>Semesterplan</h3>
       <div class="grid" id="grid"></div>
     </section>
 
-    <aside class="panel sticky">
+    <aside class="panel sticky" id="checkPanel">
       <h3>Vertiefung</h3>
       <div id="vert"></div>
       <p class="fine">Eine Vertiefung braucht mindestens 20 CP in einem Themenbereich. Querschnittsthemen zählen dafür nicht.</p>
+      <div class="sep"></div>
+      <h3>Wahlpflicht nach Fachbereich</h3>
+      <div id="fbs"></div>
+      <p class="fine">Höchstens 32 CP im Wahlpflichtbereich aus einem Fachbereich. Der Fachbereich steht in den ersten beiden Stellen der Modulnummer (z. B. 18 = Elektrotechnik und Informationstechnik).</p>
       <div class="sep"></div>
       <h3>Hinweise</h3>
       <ul class="msgs" id="msgs"></ul>

@@ -4,7 +4,10 @@
 
 - Neue Ordnerstruktur `app/` (Programm) und `studiengaenge/ese/` (Daten), Rechnung über einen allgemeinen Strukturbaum (`app/src/kern/baum.js`). Vorbereitung für weitere Studiengänge.
 - Regeln aus der Studienordnung (PO 2023, Anhang I) ergänzt: höchstens 32 CP je Fachbereich im Wahlpflichtbereich (überzählige CP werden nicht angerechnet), höchstens zwei Mini-Forschungsprojekte, mindestens 5 CP aus Rechts- und Wirtschafts-, Gesellschafts- oder Humanwissenschaften, Thesis erst ab 75 CP, zweite Vertiefung, Hinweis auf ein Mini-Forschungsprojekt in der Vertiefung.
-- Referenztests mit 40 Beispielplänen, Tests für jede neue Regel (53 Tests).
+- Wahlpflicht nach Fachbereich: Übersicht der CP je Fachbereich, Vorwarnung ab 26 von 32 CP, Fachbereich im Detailfenster eines Moduls.
+- Katalogfilter ausklappbar, neu mit Filter nach Fachbereich (mehrere wählbar) und „Alle Filter zurücksetzen“.
+- Handyansicht aus 0.4.0 nachgetragen: Sie stand im Änderungsprotokoll, war aber nicht im Commit enthalten (Kapitel im Katalog, Balken je Bereich, Menü als Seitenleiste).
+- Referenztests mit 40 Beispielplänen, Tests für jede neue Regel (54 Tests).
 
 ## 0.4.0 (14.10.2026)
 

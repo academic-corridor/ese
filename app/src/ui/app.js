@@ -7,14 +7,14 @@ var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':
 var komma=function(x){return String(x).replace('.',',')};
 var noteText=function(n){return n===null||n===undefined?'':komma(n.toFixed(1))};
 
-var S=ESE.Struktur, Regeln=ESE.Regeln, Zustand=ESE.Zustand, Sem=ESE.Semester;
+var S=ESE.Struktur, Regeln=ESE.Regeln, Zustand=ESE.Zustand, Sem=ESE.Semester, fbVon=ESE.Zusatzregeln.fachbereich;
 var THEMEN=S.themen, TURNUS=S.turnus, SPRACHEN=S.sprachen;
 var BEREICHE={};
 Object.keys(S.bereiche).forEach(function(k){BEREICHE[k]={name:S.bereiche[k].name,cv:S.bereiche[k].farbe}});
 var BEREICH_REIHE=['Grundlagen','IEP','Thesis','Wahlpflicht','Wahlbereich'];
 
 var KEY=Zustand.KEY;
-var plan=null, filterT=null, filterTurnus='', filterSprache='', query='';
+var openG={}, plan=null, filterT=null, filterTurnus='', filterSprache='', filterFB={}, query='';
 
 /* ---------- Browser-Speicher (localStorage) ---------- */
 function load(){
@@ -95,7 +95,9 @@ function renderBand(c){
       ? (c.all(o)+' CP eingetragen, höchstens '+S.grenzen.grundlagenMax+' zählen')
       : (o.d+' bestanden, '+(o.a+o.p)+' laufend oder geplant, Soll '+soll
          +(zaehlt(c,k).abzug?' ('+zaehlt(c,k).abzug+' CP über der Grenze je Fachbereich zählen nicht)':''));
-    r+='<div class="row" style="--sc:var('+BEREICHE[k].cv+')"><span class="dot"></span><div><b>'+esc(BEREICHE[k].name)+'</b><span>'+esc(sub)+'</span></div></div>';
+    var z=zaehlt(c,k), dd=soll>0?Math.min(z.d,soll)/soll*100:0, aa=soll>0?Math.min(z.alle,soll)/soll*100:0;
+    r+='<div class="row" style="--sc:var('+BEREICHE[k].cv+')"><span class="dot"></span><div><b>'+esc(BEREICHE[k].name)+'</b><span>'+esc(sub)+'</span>'
+      +'<div class="rbar" aria-hidden="true"><i class="p" style="width:'+aa+'%"></i><i class="d" style="width:'+dd+'%"></i></div></div></div>';
   });
   $('#rows').innerHTML=r;
 }
@@ -136,10 +138,34 @@ function passtFilter(m,q){
   if(filterTurnus==='jedes'&&m.turnus!=='jedes') return false;
   if(filterTurnus==='unklar'&&['zwei','drei','x'].indexOf(m.turnus)<0) return false;
   if(filterSprache&&m.sprache!==filterSprache&&m.sprache!=='de/en') return false;
+  if(fbAktiv().length && !filterFB[fbVon(m.nr)]) return false;
   if(q && (m.name+' '+m.nr).toLowerCase().indexOf(q)<0) return false;
   return true;
 }
+function fbAktiv(){ return Object.keys(filterFB).filter(function(k){return filterFB[k]}).sort(); }
+
+/* Filterleiste: Fachbereich-Chips und Zusammenfassung der aktiven Filter */
+function renderFilter(){
+  var zahl={};
+  plan.mods.forEach(function(m){ if(m.sem) return; var f=fbVon(m.nr); if(f) zahl[f]=(zahl[f]||0)+1; });
+  var fbs=Object.keys(zahl).sort();
+  fbAktiv().forEach(function(f){ if(fbs.indexOf(f)<0) fbs.push(f); });
+  $('#fbChips').innerHTML=fbs.map(function(f){
+    return '<button class="chip fbchip" aria-pressed="'+!!filterFB[f]+'" data-fb="'+esc(f)+'" title="'+esc('Fachbereich '+f+(S.fachbereiche[f]?' '+S.fachbereiche[f]:''))+'">'
+      +'<span class="fbnr">'+esc(f)+'</span>'+esc(S.fachbereicheKurz[f]||S.fachbereiche[f]||'Fachbereich '+f)+' <small>'+(zahl[f]||0)+'</small></button>';
+  }).join('');
+  var teile=[];
+  if(filterT) teile.push(filterT==='_pf'?'Pflicht und Wahlbereich':Regeln.themaName(filterT));
+  if(fbAktiv().length) teile.push('FB '+fbAktiv().join(', '));
+  if(filterTurnus) teile.push($('#fTurnus').selectedOptions[0].text);
+  if(filterSprache) teile.push(SPRACHEN[filterSprache]);
+  $('#fSum').textContent=teile.length?teile.join(' · '):'keine aktiv';
+  $('#filters').classList.toggle('aktiv',teile.length>0);
+  $('#fReset').hidden=!teile.length;
+}
+
 function renderCatalog(){
+  renderFilter();
   var chips='<button class="chip" aria-pressed="'+(filterT===null)+'" data-f="">Alle</button>';
   THEMEN.forEach(function(t){
     chips+='<button class="chip" style="--sc:var(--c-'+t.id+')" aria-pressed="'+(filterT===t.id)+'" data-f="'+t.id+'"><i></i>'+esc(t.name)+'</button>';
@@ -155,14 +181,30 @@ function renderCatalog(){
   if(!list.length){
     h+='<div class="empty">Keine Module gefunden. Ändere Suche oder Filter, oder lege das Modul oben selbst an.</div>';
   }else{
-    var lastG='', lastU='';
+    /* Kapitel (Bereich oder Themenbereich). Mit Suche oder Filter sind alle Kapitel offen. */
+    var filtert=!!(q||filterT||filterTurnus||filterSprache||fbAktiv().length);
+    var kapitel=[], cur=null;
     list.forEach(function(x){
       var m=x.m;
       var g=(m.bereich==='Wahlpflicht'&&filterT&&filterT!=='_pf')?Regeln.themaName(filterT):(m.bereich==='Wahlpflicht'?Regeln.themaName(m.themen[0]):BEREICHE[m.bereich].name);
-      var u=m.gruppe||'';
-      if(g!==lastG){h+='<div class="group-h">'+esc(g)+'</div>';lastG=g;lastU=''}
-      if(u!==lastU){if(u) h+='<div class="group-u">'+esc(u)+'</div>';lastU=u}
-      h+=cardHTML(m,false);
+      if(!cur||cur.name!==g){cur={name:g,mods:[]};kapitel.push(cur)}
+      cur.mods.push(m);
+    });
+    kapitel.forEach(function(k){
+      var offen=filtert||!!openG[k.name];
+      h+='<section class="grp'+(offen?' open':'')+'"><button type="button" class="grp-h" data-g="'+esc(k.name)+'" aria-expanded="'+offen+'">'
+        +'<span class="gn">'+esc(k.name)+'</span><span class="gc">'+k.mods.length+'</span><span class="chev" aria-hidden="true"></span></button>';
+      if(offen){
+        h+='<div class="grp-b">';
+        var lastU='';
+        k.mods.forEach(function(m){
+          var u=m.gruppe||'';
+          if(u!==lastU){if(u) h+='<div class="group-u">'+esc(u)+'</div>';lastU=u}
+          h+=cardHTML(m,false);
+        });
+        h+='</div>';
+      }
+      h+='</section>';
     });
   }
   $('#catList').innerHTML=h;
@@ -181,6 +223,22 @@ function addCardHTML(){
   return '<button type="button" class="addcard" id="catAdd"><span class="plus">+</span><span><b>'+titel+'</b><small>'+sub+'</small></span></button>';
 }
 
+/* ---------- Wahlpflicht nach Fachbereich ---------- */
+function renderFachbereiche(c){
+  var F=c.fachbereiche, vw=S.grenzen.fachbereichVorwarnung, h='';
+  F.liste.forEach(function(f){
+    var farbe=f.ueberschuss?'--warn':(f.frei<=vw?'--plan':'--accent');
+    var dp=Math.min(100,f.d/f.max*100), ap=Math.min(100,f.alle/f.max*100);
+    var zahl=f.alle+' von '+f.max+' CP'+(f.ueberschuss?' · '+f.ueberschuss+' zu viel':'');
+    h+='<div class="vrow fbrow'+(f.ueberschuss?' over':'')+'" style="--sc:var('+farbe+')" title="'+esc('Fachbereich '+f.fb+(f.name?' '+f.name:'')+': '+f.d+' CP bestanden, '+(f.alle-f.d)+' CP laufend oder geplant')+'">'
+      +'<div class="vt"><span><span class="fbnr">'+esc(f.fb)+'</span> '+esc(S.fachbereicheKurz[f.fb]||f.name||'Fachbereich '+f.fb)+'</span><b>'+esc(zahl)+'</b></div>'
+      +'<div class="vbar"><div class="p" style="width:'+ap+'%"></div><div class="d" style="width:'+dp+'%"></div><div class="mk"></div></div></div>';
+  });
+  if(F.ohneNummer) h+='<div class="vrow"><div class="vt"><span>Eigene Module ohne Modulnummer</span><b>'+F.ohneNummer+' CP</b></div></div>';
+  if(!h) h='<p class="fine">Noch keine Module im Wahlpflichtbereich.</p>';
+  $('#fbs').innerHTML=h;
+}
+
 /* ---------- Vertiefung und Hinweise ---------- */
 function renderCheck(c){
   var v='';
@@ -191,6 +249,7 @@ function renderCheck(c){
       +'<div class="vbar"><div class="p" style="width:'+ap+'%"></div><div class="d" style="width:'+dp+'%"></div>'+(ziel?'<div class="mk"></div>':'')+'</div></div>';
   });
   $('#vert').innerHTML=v;
+  renderFachbereiche(c);
   var msgs=Regeln.hinweise(c,plan);
   $('#msgs').innerHTML=msgs.map(function(x){return '<li class="'+x[0]+'">'+esc(x[1])+'</li>'}).join('');
 }
@@ -205,9 +264,11 @@ function render(){
 function moveTo(id,sem){
   var m=modById(id);
   if(!m || m.sem===sem) return;
+  var vorher=m.sem;
   m.sem=sem;
   if(!sem){m.ok=false;m.note=null}
   render();
+  if(sem&&!vorher&&window.matchMedia&&window.matchMedia('(max-width:1179px)').matches) toast(m.name+' eingeplant in '+Sem.label(sem)+'.');
 }
 
 var dragId=null;
@@ -253,6 +314,7 @@ document.addEventListener('change',function(e){
 var pop=$('#pop'), popFor=null;
 function popHTML(m){
   var info=[m.cp+' CP',TURNUS[m.turnus]||TURNUS.x];
+  var fbm=fbVon(m.nr); if(fbm) info.push('Fachbereich '+fbm+(S.fachbereiche[fbm]?' ('+S.fachbereiche[fbm]+')':''));
   if(m.sprache) info.push(SPRACHEN[m.sprache]);
   var h='<div class="ph"><b>'+esc(m.name)+'</b><span>'+esc((m.nr?m.nr+' · ':'')+einordnung(m)+(m.gruppe?', '+m.gruppe:''))+'</span><span>'+esc(info.join(' · '))+'</span>'
     +(m.hinweis?'<span class="hw">'+esc(m.hinweis)+'</span>':'')+'</div>';
@@ -338,6 +400,14 @@ $('#grid').addEventListener('click',function(e){
 $('#q').addEventListener('input',function(e){query=e.target.value;renderCatalog()});
 $('#fTurnus').addEventListener('change',function(e){filterTurnus=e.target.value;renderCatalog()});
 $('#fSprache').addEventListener('change',function(e){filterSprache=e.target.value;renderCatalog()});
+$('#fbChips').addEventListener('click',function(e){
+  var b=e.target.closest('.chip'); if(!b) return;
+  var f=b.getAttribute('data-fb'); filterFB[f]=!filterFB[f]; renderCatalog();
+});
+$('#fReset').addEventListener('click',function(){
+  filterT=null; filterTurnus=''; filterSprache=''; filterFB={};
+  $('#fTurnus').value=''; $('#fSprache').value=''; renderCatalog();
+});
 $('#chips').addEventListener('click',function(e){
   var b=e.target.closest('.chip'); if(!b) return;
   var f=b.getAttribute('data-f'); filterT=f===''?null:(filterT===f?null:f); renderCatalog();
@@ -377,7 +447,11 @@ function modulDialog(m,vorgabe){
   });
   var fN=$('#fN'); fN.focus(); fN.setSelectionRange(fN.value.length,fN.value.length);
 }
-$('#catList').addEventListener('click',function(e){ if(e.target.closest('#catAdd')) modulDialog(null,addVorgabe()); });
+$('#catList').addEventListener('click',function(e){
+  if(e.target.closest('#catAdd')){ modulDialog(null,addVorgabe()); return; }
+  var gh=e.target.closest('.grp-h');
+  if(gh){ var n=gh.getAttribute('data-g'); openG[n]=!openG[n]; renderCatalog(); }
+});
 
 /* Zeitraum: Studienbeginn und Anzahl der Semester */
 $('#btnZeit').addEventListener('click',function(){
@@ -466,6 +540,17 @@ $('#fileIn').addEventListener('change',function(e){
   r.readAsText(f);
   e.target.value='';
 });
+
+/* ---------- Menü als Seitenleiste auf kleinen Bildschirmen ---------- */
+function menu(auf){
+  document.body.classList.toggle('menu-open',auf);
+  $('#btnMenu').setAttribute('aria-expanded',auf?'true':'false');
+}
+$('#btnMenu').addEventListener('click',function(){menu(true)});
+$('#btnMenuClose').addEventListener('click',function(){menu(false)});
+$('#drawerBack').addEventListener('click',function(){menu(false)});
+$('#actions').addEventListener('click',function(e){ if(e.target.closest('.btn')&&!e.target.closest('#btnMenuClose')) menu(false); });
+document.addEventListener('keydown',function(e){ if(e.key==='Escape') menu(false); });
 
 /* ---------- Anleitung (beim ersten Besuch und über das i oben) ---------- */
 var HILFE_KEY='ese-planer-hilfe-v1';
