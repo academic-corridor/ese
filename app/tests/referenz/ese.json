@@ -1,0 +1,5884 @@
+[
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 9,
+     "a": 5,
+     "p": 17
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 3,
+     "a": 5,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mul": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 3,
+    "S2026": 10,
+    "W2026": 5,
+    "S2027": 0,
+    "W2027": 12,
+    "S2028": 10
+   },
+   "aktuell": "W2026",
+   "G": 5,
+   "needWP": 67,
+   "soll": {
+    "Grundlagen": 5,
+    "IEP": 6,
+    "Wahlpflicht": 67,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 14,
+   "total": 40,
+   "noten": {
+    "schnitt": 1.86,
+    "cp": 11
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 36 CP fehlen noch bis zum Soll von 67 CP."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (5 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Mobilität und Transport liegt vorn mit 8 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "2 Module liegen in vergangenen Semestern ohne Häkchen: Geothermal Engineering, Studium Generale."
+   ],
+   [
+    "warn",
+    "Control of Drives wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Grundlagen der Schienenfahrzeugtechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 3,
+     "a": 5,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 17,
+     "a": 9,
+     "p": 45
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "mat": {
+     "d": 4,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 3,
+     "a": 0,
+     "p": 10
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 15
+    },
+    "kw": {
+     "d": 4,
+     "a": 5,
+     "p": 0
+    },
+    "qs": {
+     "d": 6,
+     "a": 4,
+     "p": 4
+    }
+   },
+   "load": {
+    "W2025": 9,
+    "S2026": 20,
+    "W2026": 18,
+    "S2027": 13,
+    "W2027": 13,
+    "S2028": 6
+   },
+   "aktuell": "W2026",
+   "G": 8,
+   "needWP": 64,
+   "soll": {
+    "Grundlagen": 8,
+    "IEP": 6,
+    "Wahlpflicht": 64,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 20,
+   "total": 79,
+   "noten": {
+    "schnitt": 1.84,
+    "cp": 17
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 64 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (8 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Multimodale Systeme liegt vorn mit 15 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "5 Module liegen in vergangenen Semestern ohne Häkchen: Facade Technology II, Surfaces and Interfaces, Energietechnisches Praktikum I, Advanced Life Cycle Assessment of Products and Systems, Physikalische Chemie der weichen Materie - Kondensierte Materie B (M.PC10/M.TH8/M.MC4)."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 3
+    },
+    "IEP": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 113,
+     "a": 13,
+     "p": 67
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 18,
+     "a": 0,
+     "p": 5
+    },
+    "mob": {
+     "d": 10,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 8,
+     "a": 0,
+     "p": 10
+    },
+    "ern": {
+     "d": 41,
+     "a": 4,
+     "p": 17
+    },
+    "mul": {
+     "d": 28,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 4,
+     "p": 0
+    },
+    "qs": {
+     "d": 8,
+     "a": 5,
+     "p": 35
+    }
+   },
+   "load": {
+    "W2025": 50,
+    "S2026": 30,
+    "W2026": 26,
+    "S2027": 32,
+    "W2027": 35,
+    "S2028": 29
+   },
+   "aktuell": "W2026",
+   "G": 3,
+   "needWP": 69,
+   "soll": {
+    "Grundlagen": 3,
+    "IEP": 6,
+    "Wahlpflicht": 69,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 78,
+   "total": 81,
+   "noten": {
+    "schnitt": 2.43,
+    "cp": 66
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (121 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (3 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (41 CP bestanden)."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 50 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "4 Module liegen in vergangenen Semestern ohne Häkchen: Mini-Forschungsprojekt „Materialien für energietechnische Prozesse“, Abfalltechnik, Hochspannungstechnik II, Gasisolierte Schaltanlagen und Leitungen."
+   ],
+   [
+    "warn",
+    "Interdisziplinäres Energieprojekt IEP wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Blitzphysik und Blitzschutz wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 8,
+     "a": 5,
+     "p": 24
+    },
+    "IEP": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 209,
+     "a": 16,
+     "p": 124
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 30
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 17,
+     "a": 5,
+     "p": 29
+    },
+    "mob": {
+     "d": 26,
+     "a": 0,
+     "p": 9
+    },
+    "mat": {
+     "d": 5,
+     "a": 6,
+     "p": 16
+    },
+    "ern": {
+     "d": 76,
+     "a": 5,
+     "p": 35
+    },
+    "mul": {
+     "d": 22,
+     "a": 0,
+     "p": 21
+    },
+    "kw": {
+     "d": 18,
+     "a": 0,
+     "p": 5
+    },
+    "qs": {
+     "d": 45,
+     "a": 0,
+     "p": 9
+    }
+   },
+   "load": {
+    "W2025": 73,
+    "S2026": 83,
+    "W2026": 50,
+    "S2027": 87,
+    "W2027": 85,
+    "S2028": 44
+   },
+   "aktuell": "W2026",
+   "G": 31,
+   "needWP": 41,
+   "soll": {
+    "Grundlagen": 31,
+    "IEP": 6,
+    "Wahlpflicht": 41,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 86,
+   "total": 108,
+   "noten": {
+    "schnitt": 2.41,
+    "cp": 179
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 41 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (277 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (31 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (76 CP bestanden)."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 73 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 83 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 50 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 87 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 85 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 44 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "11 Module liegen in vergangenen Semestern ohne Häkchen: Einführung in die Volkswirtschaftslehre (Vorlesung), Masterthesis ESE, Green Building Design I, International Spatial Development and Planning, Bahnbetrieb: Modellierung, Planung, Disposition II, Semiconductor Interfaces, Energiesysteme II (Erneuerbare Energien), Reststoffe aus Abwasseranlagen - Behandlung und Ressourcenrückgewinnung, Grundwassermodellierung, Elektrische Energieversorgung III, Projektseminar Netzberechnung."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen I wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Energy Converters - CAD and System Dynamics wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Advanced Power Electronics wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Neue Technologien bei elektrischen Energiewandlern und Aktoren wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrothermische Prozesstechnik wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum I wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 25,
+     "a": 0,
+     "p": 19
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    },
+    "mul": {
+     "d": 6,
+     "a": 0,
+     "p": 8
+    },
+    "kw": {
+     "d": 8,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 6,
+     "a": 0,
+     "p": 3
+    }
+   },
+   "load": {
+    "W2025": 18,
+    "S2026": 3,
+    "W2026": 0,
+    "S2027": 6,
+    "W2027": 3,
+    "S2028": 14
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 25,
+   "total": 44,
+   "noten": {
+    "schnitt": 2.18,
+    "cp": 20
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 28 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Multimodale Systeme liegt vorn mit 14 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "2 Module liegen in vergangenen Semestern ohne Häkchen: Advanced Vehicle Propulsion Systems, Non-conventional synthesis methods in materials chemistry."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 3,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 44,
+     "a": 0,
+     "p": 62
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 12,
+     "a": 0,
+     "p": 5
+    },
+    "mob": {
+     "d": 12,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 4,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 8,
+     "a": 0,
+     "p": 23
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 8
+    },
+    "kw": {
+     "d": 4,
+     "a": 0,
+     "p": 17
+    },
+    "qs": {
+     "d": 4,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "load": {
+    "W2025": 41,
+    "S2026": 26,
+    "W2026": 8,
+    "S2027": 17,
+    "W2027": 8,
+    "S2028": 13
+   },
+   "aktuell": "W2026",
+   "G": 3,
+   "needWP": 69,
+   "soll": {
+    "Grundlagen": 3,
+    "IEP": 6,
+    "Wahlpflicht": 69,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 47,
+   "total": 79,
+   "noten": {
+    "schnitt": 2.41,
+    "cp": 23
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (34 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (3 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Erneuerbare Energien (31 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 41 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "8 Module liegen in vergangenen Semestern ohne Häkchen: Energy Converters - CAD and System Dynamics, Materials chemistry in electrocatalysis for energy applications, Mini-Forschungsprojekt „Erneuerbare Energien und Technologien“, Reststoffe aus Abwasseranlagen - Behandlung und Ressourcenrückgewinnung, Energie und Klimaschutz, Technische Verbrennung I, Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen, Studium Generale."
+   ],
+   [
+    "warn",
+    "Grundlagen der Flugantriebe wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Elektrische Maschinen und Antriebe wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 10,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 102,
+     "a": 13,
+     "p": 58
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 17,
+     "a": 6,
+     "p": 0
+    },
+    "mob": {
+     "d": 8,
+     "a": 0,
+     "p": 17
+    },
+    "mat": {
+     "d": 3,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 29,
+     "a": 0,
+     "p": 0
+    },
+    "mul": {
+     "d": 30,
+     "a": 3,
+     "p": 16
+    },
+    "kw": {
+     "d": 9,
+     "a": 0,
+     "p": 12
+    },
+    "qs": {
+     "d": 6,
+     "a": 4,
+     "p": 8
+    }
+   },
+   "load": {
+    "W2025": 14,
+    "S2026": 30,
+    "W2026": 39,
+    "S2027": 23,
+    "W2027": 38,
+    "S2028": 39
+   },
+   "aktuell": "W2026",
+   "G": 10,
+   "needWP": 62,
+   "soll": {
+    "Grundlagen": 10,
+    "IEP": 6,
+    "Wahlpflicht": 62,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 82,
+   "total": 82,
+   "noten": {
+    "schnitt": 2.63,
+    "cp": 90
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 62 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (101 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (10 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Multimodale Systeme (30 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 39 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 38 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 39 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "4 Module liegen in vergangenen Semestern ohne Häkchen: Control of Drives, Verbrennungskraftmaschinen I, Verbrennungskraftmaschinen II, Kraftwerke und Erneuerbare Energien."
+   ],
+   [
+    "warn",
+    "Control of Drives wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Angewandte Supraleitung wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Energiewende gestalten wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Kraftwerke und Erneuerbare Energien wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 27,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "Wahlpflicht": {
+     "d": 175,
+     "a": 44,
+     "p": 122
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 29,
+     "a": 10,
+     "p": 11
+    },
+    "mob": {
+     "d": 14,
+     "a": 0,
+     "p": 14
+    },
+    "mat": {
+     "d": 7,
+     "a": 0,
+     "p": 14
+    },
+    "ern": {
+     "d": 35,
+     "a": 8,
+     "p": 45
+    },
+    "mul": {
+     "d": 32,
+     "a": 15,
+     "p": 21
+    },
+    "kw": {
+     "d": 37,
+     "a": 5,
+     "p": 5
+    },
+    "qs": {
+     "d": 21,
+     "a": 6,
+     "p": 12
+    }
+   },
+   "load": {
+    "W2025": 45,
+    "S2026": 60,
+    "W2026": 88,
+    "S2027": 38,
+    "W2027": 81,
+    "S2028": 62
+   },
+   "aktuell": "W2026",
+   "G": 27,
+   "needWP": 45,
+   "soll": {
+    "Grundlagen": 27,
+    "IEP": 6,
+    "Wahlpflicht": 45,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 99,
+   "total": 105,
+   "noten": {
+    "schnitt": 2.24,
+    "cp": 148
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 45 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (269 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (27 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (35 CP bestanden)."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 45 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 60 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 88 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 38 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 81 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 62 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "10 Module liegen in vergangenen Semestern ohne Häkchen: Interdisziplinäres Energieprojekt IEP, Baustoffkunde, Advanced Building Physics, Bahnbetrieb: Modellierung, Planung, Disposition III, Energy Converters - CAD and System Dynamics, Grundwassermodellierung, Energieversorgung und Umweltschutz, Advanced Life Cycle Assessment of Products and Systems, Umweltmanagement und industrieller Umweltschutz, Elektrochemie (M.PC5/M.AC9)."
+   ],
+   [
+    "warn",
+    "Elektrische Bahnen wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Energy Converters - CAD and System Dynamics wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Hochspannungsschaltgeräte und -anlagen wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrothermische Prozesstechnik wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Simulation des elektrischen Energieversorgungssystems wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "Wahlpflicht": {
+     "d": 0,
+     "a": 0,
+     "p": 9
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 9
+    }
+   },
+   "load": {
+    "W2025": 0,
+    "S2026": 6,
+    "W2026": 0,
+    "S2027": 4,
+    "W2027": 0,
+    "S2028": 5
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 0,
+   "total": 15,
+   "noten": null
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 63 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: bisher 0 von 20 CP."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "1 Modul liegt in vergangenen Semestern ohne Häkchen: Interdisziplinäres Energieprojekt IEP."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 3
+    },
+    "IEP": {
+     "d": 0,
+     "a": 6,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 61,
+     "a": 5,
+     "p": 37
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 18,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 8,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 4,
+     "a": 5,
+     "p": 0
+    },
+    "ern": {
+     "d": 7,
+     "a": 0,
+     "p": 16
+    },
+    "mul": {
+     "d": 10,
+     "a": 0,
+     "p": 6
+    },
+    "kw": {
+     "d": 14,
+     "a": 0,
+     "p": 9
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 16,
+    "S2026": 31,
+    "W2026": 19,
+    "S2027": 21,
+    "W2027": 10,
+    "S2028": 15
+   },
+   "aktuell": "W2026",
+   "G": 3,
+   "needWP": 69,
+   "soll": {
+    "Grundlagen": 3,
+    "IEP": 6,
+    "Wahlpflicht": 69,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 61,
+   "total": 81,
+   "noten": {
+    "schnitt": 2.32,
+    "cp": 37
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (31 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (3 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (24 CP)."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "4 Module liegen in vergangenen Semestern ohne Häkchen: Computational Methods for Building Physics and Construction Materials, Geothermie VI, Hochspannungstechnik II, Höhere Wärmeübertragung."
+   ],
+   [
+    "warn",
+    "Interdisziplinäres Energieprojekt IEP wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Elektrische Bahnen wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Hochspannungsschaltgeräte und -anlagen wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Elektrische Maschinen und Antriebe wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Großgeneratoren und Hochleistungsantriebe wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik I wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "Wahlpflicht": {
+     "d": 87,
+     "a": 7,
+     "p": 88
+    },
+    "Thesis": {
+     "d": 30,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 12,
+     "a": 0,
+     "p": 11
+    },
+    "mob": {
+     "d": 14,
+     "a": 0,
+     "p": 3
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 3
+    },
+    "ern": {
+     "d": 17,
+     "a": 3,
+     "p": 22
+    },
+    "mul": {
+     "d": 20,
+     "a": 0,
+     "p": 5
+    },
+    "kw": {
+     "d": 5,
+     "a": 4,
+     "p": 17
+    },
+    "qs": {
+     "d": 19,
+     "a": 0,
+     "p": 27
+    }
+   },
+   "load": {
+    "W2025": 21,
+    "S2026": 46,
+    "W2026": 30,
+    "S2027": 24,
+    "W2027": 35,
+    "S2028": 71
+   },
+   "aktuell": "W2026",
+   "G": 5,
+   "needWP": 67,
+   "soll": {
+    "Grundlagen": 5,
+    "IEP": 6,
+    "Wahlpflicht": 67,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 102,
+   "total": 112,
+   "noten": {
+    "schnitt": 2.02,
+    "cp": 56
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 67 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (110 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (5 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Erneuerbare Energien (42 CP)."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "SoSe 26: 46 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 71 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "10 Module liegen in vergangenen Semestern ohne Häkchen: Green Building Design I, Grundlagen der Schienenfahrzeugtechnik, Grundwassermodellierung, Projektseminar Energiewandler und Antriebstechnik, Energiesysteme III (Innovative Energiewandlungsverfahren), Planung, Bau, Inbetriebnahme und Betrieb von Großanlagen, Beschleunigerphysik, Projektseminar Energieinformationssysteme, Mesoskopische Chemie (M.AC5), Studium Generale."
+   ],
+   [
+    "warn",
+    "Interdisziplinäres Energieprojekt IEP wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrische Bahnen wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Grundlagen der Schienenfahrzeugtechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Einführung in Scientific Computing mit Python wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Numerische Strömungssimulation wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 15,
+     "a": 5,
+     "p": 6
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 162,
+     "a": 31,
+     "p": 124
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 30
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 23,
+     "a": 0,
+     "p": 16
+    },
+    "mob": {
+     "d": 27,
+     "a": 6,
+     "p": 14
+    },
+    "mat": {
+     "d": 10,
+     "a": 0,
+     "p": 13
+    },
+    "ern": {
+     "d": 32,
+     "a": 0,
+     "p": 40
+    },
+    "mul": {
+     "d": 20,
+     "a": 12,
+     "p": 12
+    },
+    "kw": {
+     "d": 4,
+     "a": 5,
+     "p": 21
+    },
+    "qs": {
+     "d": 46,
+     "a": 8,
+     "p": 8
+    }
+   },
+   "load": {
+    "W2025": 45,
+    "S2026": 98,
+    "W2026": 63,
+    "S2027": 40,
+    "W2027": 50,
+    "S2028": 77
+   },
+   "aktuell": "W2026",
+   "G": 26,
+   "needWP": 46,
+   "soll": {
+    "Grundlagen": 26,
+    "IEP": 6,
+    "Wahlpflicht": 46,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 87,
+   "total": 108,
+   "noten": {
+    "schnitt": 2.68,
+    "cp": 130
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 46 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (245 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (26 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (32 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 45 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 98 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 63 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 40 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 50 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 77 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "11 Module liegen in vergangenen Semestern ohne Häkchen: Einführung in die Volkswirtschaftslehre (Vorlesung), Masterthesis ESE, Bahnbetrieb: Sichere Durchführung I, Nahverkehrsbahnen, Magnetism and Magnetic Materials, Abfalltechnik, Geothermie III, Geothermie VI, Geothermal Engineering, Elektrothermische Prozesstechnik, Beschleunigerphysik."
+   ],
+   [
+    "warn",
+    "Fundamentals of Electrical Engineering and Power Systems wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Grundlagen der Schienenfahrzeugtechnik wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Energiewende gestalten wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Kraftwerke und Erneuerbare Energien wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Energietechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 6,
+     "a": 3,
+     "p": 6
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 3,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 0,
+    "S2026": 6,
+    "W2026": 3,
+    "S2027": 6,
+    "W2027": 0,
+    "S2028": 0
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 6,
+   "total": 15,
+   "noten": {
+    "schnitt": 3.7,
+    "cp": 6
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 57 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Energie, Bau, Infrastruktur liegt vorn mit 6 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 26,
+     "a": 0,
+     "p": 30
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 7,
+     "a": 0,
+     "p": 6
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 10,
+     "a": 0,
+     "p": 0
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 8
+    },
+    "qs": {
+     "d": 9,
+     "a": 0,
+     "p": 10
+    }
+   },
+   "load": {
+    "W2025": 10,
+    "S2026": 13,
+    "W2026": 3,
+    "S2027": 23,
+    "W2027": 6,
+    "S2028": 6
+   },
+   "aktuell": "W2026",
+   "G": 5,
+   "needWP": 67,
+   "soll": {
+    "Grundlagen": 5,
+    "IEP": 6,
+    "Wahlpflicht": 67,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 26,
+   "total": 61,
+   "noten": {
+    "schnitt": 2.9,
+    "cp": 9
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 11 CP fehlen noch bis zum Soll von 67 CP."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (5 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Mobilität und Transport liegt vorn mit 13 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "2 Module liegen in vergangenen Semestern ohne Häkchen: Bauen im Bestand und Energetische Sanierung, Physikalische Chemie der weichen Materie - Kondensierte Materie B (M.PC10/M.TH8/M.MC4)."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energietechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 8,
+     "a": 0,
+     "p": 3
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 114,
+     "a": 17,
+     "p": 56
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 30
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 10,
+     "a": 6,
+     "p": 17
+    },
+    "mob": {
+     "d": 6,
+     "a": 0,
+     "p": 4
+    },
+    "mat": {
+     "d": 4,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 49,
+     "a": 5,
+     "p": 4
+    },
+    "mul": {
+     "d": 16,
+     "a": 6,
+     "p": 9
+    },
+    "kw": {
+     "d": 14,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 15,
+     "a": 0,
+     "p": 17
+    }
+   },
+   "load": {
+    "W2025": 17,
+    "S2026": 27,
+    "W2026": 49,
+    "S2027": 50,
+    "W2027": 49,
+    "S2028": 36
+   },
+   "aktuell": "W2026",
+   "G": 11,
+   "needWP": 61,
+   "soll": {
+    "Grundlagen": 11,
+    "IEP": 6,
+    "Wahlpflicht": 61,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 80,
+   "total": 108,
+   "noten": {
+    "schnitt": 2.56,
+    "cp": 88
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 61 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (115 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (11 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (49 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 49 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 50 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 49 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "4 Module liegen in vergangenen Semestern ohne Häkchen: Einführung in die Volkswirtschaftslehre (Vorlesung), Mini-Forschungsprojekt „Materialien für energietechnische Prozesse“, Transportphänomene, Elektrochemie (M.PC5/M.AC9)."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Energiewende gestalten wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik I wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 16,
+     "a": 3,
+     "p": 10
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 187,
+     "a": 9,
+     "p": 175
+    },
+    "Thesis": {
+     "d": 30,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 34,
+     "a": 5,
+     "p": 18
+    },
+    "mob": {
+     "d": 28,
+     "a": 0,
+     "p": 14
+    },
+    "mat": {
+     "d": 16,
+     "a": 0,
+     "p": 4
+    },
+    "ern": {
+     "d": 46,
+     "a": 0,
+     "p": 45
+    },
+    "mul": {
+     "d": 21,
+     "a": 0,
+     "p": 23
+    },
+    "kw": {
+     "d": 26,
+     "a": 0,
+     "p": 27
+    },
+    "qs": {
+     "d": 16,
+     "a": 4,
+     "p": 44
+    }
+   },
+   "load": {
+    "W2025": 68,
+    "S2026": 101,
+    "W2026": 32,
+    "S2027": 85,
+    "W2027": 86,
+    "S2028": 62
+   },
+   "aktuell": "W2026",
+   "G": 29,
+   "needWP": 43,
+   "soll": {
+    "Grundlagen": 29,
+    "IEP": 6,
+    "Wahlpflicht": 43,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 108,
+   "total": 112,
+   "noten": {
+    "schnitt": 2.21,
+    "cp": 182
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 43 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (299 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (29 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (46 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 68 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 101 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 85 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 86 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 62 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "19 Module liegen in vergangenen Semestern ohne Häkchen: Materials Science for Renewable Energy Systems, International Spatial Development and Planning, Bahnbetrieb: Modellierung, Planung, Disposition II, Energy Converters - CAD and System Dynamics, Materials Science of Thin Films, Angewandte Optik, Fundamentals and Technology of Solar Cells, Wind-, Wasser- und Wellenkraft, Blitzphysik und Blitzschutz, Elektrothermische Prozesstechnik, Modeling of Material Flow Systems II, Technische Verbrennung I, Atoms and Ions in Plasma, Einführung in Scientific Computing mit Python, Fluidenergiemaschinen, Elektrochemie (M.PC5/M.AC9), Physikalische Chemie der weichen Materie - Kondensierte Materie B (M.PC10/M.TH8/M.MC4), Spektroskopie (M.PC4), Studium Generale."
+   ],
+   [
+    "warn",
+    "Grundlagen der Flugantriebe wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik II wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Blitzphysik und Blitzschutz wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung II wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik I wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Einführung in Scientific Computing mit Python wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 4,
+     "a": 0,
+     "p": 8
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mul": {
+     "d": 4,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 0,
+    "S2026": 0,
+    "W2026": 0,
+    "S2027": 0,
+    "W2027": 4,
+    "S2028": 8
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 4,
+   "total": 12,
+   "noten": {
+    "schnitt": 3,
+    "cp": 4
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 60 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Materialien liegt vorn mit 4 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 3,
+     "a": 0,
+     "p": 8
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 26,
+     "a": 10,
+     "p": 33
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 12,
+     "a": 0,
+     "p": 10
+    },
+    "mob": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 3
+    },
+    "kw": {
+     "d": 0,
+     "a": 4,
+     "p": 8
+    },
+    "qs": {
+     "d": 9,
+     "a": 6,
+     "p": 7
+    }
+   },
+   "load": {
+    "W2025": 12,
+    "S2026": 13,
+    "W2026": 10,
+    "S2027": 5,
+    "W2027": 14,
+    "S2028": 26
+   },
+   "aktuell": "W2026",
+   "G": 11,
+   "needWP": 61,
+   "soll": {
+    "Grundlagen": 11,
+    "IEP": 6,
+    "Wahlpflicht": 61,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 29,
+   "total": 80,
+   "noten": {
+    "schnitt": 2.33,
+    "cp": 17
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 61 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (11 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Energie, Bau, Infrastruktur (22 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "3 Module liegen in vergangenen Semestern ohne Häkchen: Introduction to Innovation Management, Energy Efficiency, Tutorium Energiesysteme."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 3,
+     "a": 0,
+     "p": 5
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 87,
+     "a": 5,
+     "p": 72
+    },
+    "Thesis": {
+     "d": 30,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 12,
+     "a": 0,
+     "p": 23
+    },
+    "mob": {
+     "d": 10,
+     "a": 5,
+     "p": 6
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 37,
+     "a": 0,
+     "p": 6
+    },
+    "mul": {
+     "d": 23,
+     "a": 0,
+     "p": 13
+    },
+    "kw": {
+     "d": 5,
+     "a": 0,
+     "p": 5
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 14
+    }
+   },
+   "load": {
+    "W2025": 32,
+    "S2026": 26,
+    "W2026": 32,
+    "S2027": 29,
+    "W2027": 49,
+    "S2028": 34
+   },
+   "aktuell": "W2026",
+   "G": 8,
+   "needWP": 64,
+   "soll": {
+    "Grundlagen": 8,
+    "IEP": 6,
+    "Wahlpflicht": 64,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 105,
+   "total": 108,
+   "noten": {
+    "schnitt": 2.54,
+    "cp": 80
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 64 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (92 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (8 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (37 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 49 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "7 Module liegen in vergangenen Semestern ohne Häkchen: Bahnbetrieb: Sichere Durchführung I, Grundlagen der Schienenfahrzeugtechnik, Mini-Forschungsprojekt „Materialien für energietechnische Prozesse“, Advanced Life Cycle Assessment of Products and Systems, Modeling of Material Flow Systems II, Numerische Strömungssimulation, Mesoskopische Chemie (M.AC5)."
+   ],
+   [
+    "warn",
+    "Control of Drives wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Elektrische Antriebstechnik für Automobile wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Grundlagen der Schienenfahrzeugtechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Numerische Strömungssimulation wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 16,
+     "a": 3,
+     "p": 21
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 158,
+     "a": 28,
+     "p": 157
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 29,
+     "a": 0,
+     "p": 17
+    },
+    "mob": {
+     "d": 30,
+     "a": 11,
+     "p": 24
+    },
+    "mat": {
+     "d": 11,
+     "a": 5,
+     "p": 13
+    },
+    "ern": {
+     "d": 11,
+     "a": 3,
+     "p": 55
+    },
+    "mul": {
+     "d": 16,
+     "a": 0,
+     "p": 28
+    },
+    "kw": {
+     "d": 15,
+     "a": 5,
+     "p": 13
+    },
+    "qs": {
+     "d": 46,
+     "a": 4,
+     "p": 7
+    }
+   },
+   "load": {
+    "W2025": 47,
+    "S2026": 60,
+    "W2026": 67,
+    "S2027": 45,
+    "W2027": 74,
+    "S2028": 90
+   },
+   "aktuell": "W2026",
+   "G": 31,
+   "needWP": 41,
+   "soll": {
+    "Grundlagen": 31,
+    "IEP": 6,
+    "Wahlpflicht": 41,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 88,
+   "total": 103,
+   "noten": {
+    "schnitt": 2.36,
+    "cp": 121
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 41 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (271 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (31 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Erneuerbare Energien (69 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 47 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 60 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 67 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 45 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 74 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 90 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "14 Module liegen in vergangenen Semestern ohne Häkchen: Einführung in die Betriebswirtschaftslehre, Fundamentals of Electrical Engineering and Power Systems, Räumliche Entwicklung und Planungspraxis in Deutschland, Bahnbetrieb: Modellierung, Planung, Disposition I, Mini-Forschungsprojekt „Materialien für energietechnische Prozesse“, Geothermie VI, Numerische Modellierung im Wasserbau, Wasserbau III: Verkehrswasserbau, Gewässerentwicklung, Ökohydraulik, Projektseminar Energiewandler und Antriebstechnik, Energy Efficiency, Sustainable Systems Design, Höhere Wärmeübertragung, Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen, Mesoskopische Chemie (M.AC5)."
+   ],
+   [
+    "warn",
+    "Fundamentals of Electrical Engineering and Power Systems wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Energy Converters - CAD and System Dynamics wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Angewandte Supraleitung wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energiekabelanlagen wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Blitzphysik und Blitzschutz wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Advanced Power Electronics wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Neue Technologien bei elektrischen Energiewandlern und Aktoren wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung II wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Simulation des elektrischen Energieversorgungssystems wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Numerische Strömungssimulation wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 18,
+     "a": 0,
+     "p": 13
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 6,
+     "a": 0,
+     "p": 5
+    },
+    "mul": {
+     "d": 4,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 5,
+     "a": 0,
+     "p": 8
+    },
+    "qs": {
+     "d": 3,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 14,
+    "S2026": 8,
+    "W2026": 0,
+    "S2027": 0,
+    "W2027": 8,
+    "S2028": 5
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 18,
+   "total": 35,
+   "noten": {
+    "schnitt": 2.61,
+    "cp": 14
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 41 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Zukünftige Kraftwerke liegt vorn mit 13 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "1 Modul liegt in vergangenen Semestern ohne Häkchen: Studium Generale."
+   ],
+   [
+    "warn",
+    "Advanced Power Electronics wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 54,
+     "a": 9,
+     "p": 37
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 11,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 5,
+     "p": 3
+    },
+    "ern": {
+     "d": 14,
+     "a": 0,
+     "p": 3
+    },
+    "mul": {
+     "d": 21,
+     "a": 0,
+     "p": 6
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 8
+    },
+    "qs": {
+     "d": 8,
+     "a": 4,
+     "p": 17
+    }
+   },
+   "load": {
+    "W2025": 20,
+    "S2026": 19,
+    "W2026": 22,
+    "S2027": 15,
+    "W2027": 17,
+    "S2028": 12
+   },
+   "aktuell": "W2026",
+   "G": 5,
+   "needWP": 67,
+   "soll": {
+    "Grundlagen": 5,
+    "IEP": 6,
+    "Wahlpflicht": 67,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 54,
+   "total": 77,
+   "noten": {
+    "schnitt": 2.58,
+    "cp": 36
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 67 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (28 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (5 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Multimodale Systeme (21 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "3 Module liegen in vergangenen Semestern ohne Häkchen: Fundamentals of Electrical Engineering and Power Systems, Angewandte Supraleitung, Modeling of Turbulent Flows."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 8,
+     "a": 5,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 56,
+     "a": 19,
+     "p": 69
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 17
+    },
+    "mob": {
+     "d": 6,
+     "a": 14,
+     "p": 12
+    },
+    "mat": {
+     "d": 5,
+     "a": 0,
+     "p": 3
+    },
+    "ern": {
+     "d": 6,
+     "a": 0,
+     "p": 24
+    },
+    "mul": {
+     "d": 10,
+     "a": 0,
+     "p": 3
+    },
+    "kw": {
+     "d": 22,
+     "a": 5,
+     "p": 0
+    },
+    "qs": {
+     "d": 7,
+     "a": 0,
+     "p": 10
+    }
+   },
+   "load": {
+    "W2025": 25,
+    "S2026": 23,
+    "W2026": 36,
+    "S2027": 21,
+    "W2027": 32,
+    "S2028": 20
+   },
+   "aktuell": "W2026",
+   "G": 13,
+   "needWP": 59,
+   "soll": {
+    "Grundlagen": 13,
+    "IEP": 6,
+    "Wahlpflicht": 59,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 64,
+   "total": 85,
+   "noten": {
+    "schnitt": 2.97,
+    "cp": 32
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 59 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (72 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (13 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Mobilität und Transport (32 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "7 Module liegen in vergangenen Semestern ohne Häkchen: Motorenentwicklung für die elektrische Antriebstechnik, Energy Converters - CAD and System Dynamics, Mini-Forschungsprojekt „Energieeffiziente Mobilitäts- und Transportkonzepte“, Wasserbau III: Verkehrswasserbau, Gewässerentwicklung, Ökohydraulik, Energiekabelanlagen, Netzwirtschaft und Netzbetrieb in der Praxis, Transportphänomene."
+   ],
+   [
+    "warn",
+    "Energy Converters - CAD and System Dynamics wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Normen-, Prüf- und Zulassungswesen in der Elektrotechnik wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 13,
+     "a": 0,
+     "p": 3
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 167,
+     "a": 15,
+     "p": 156
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 33,
+     "a": 0,
+     "p": 17
+    },
+    "mob": {
+     "d": 35,
+     "a": 0,
+     "p": 13
+    },
+    "mat": {
+     "d": 4,
+     "a": 0,
+     "p": 20
+    },
+    "ern": {
+     "d": 38,
+     "a": 15,
+     "p": 21
+    },
+    "mul": {
+     "d": 19,
+     "a": 0,
+     "p": 37
+    },
+    "kw": {
+     "d": 17,
+     "a": 0,
+     "p": 13
+    },
+    "qs": {
+     "d": 21,
+     "a": 0,
+     "p": 35
+    }
+   },
+   "load": {
+    "W2025": 51,
+    "S2026": 57,
+    "W2026": 32,
+    "S2027": 69,
+    "W2027": 56,
+    "S2028": 89
+   },
+   "aktuell": "W2026",
+   "G": 16,
+   "needWP": 56,
+   "soll": {
+    "Grundlagen": 16,
+    "IEP": 6,
+    "Wahlpflicht": 56,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 85,
+   "total": 88,
+   "noten": {
+    "schnitt": 2.41,
+    "cp": 131
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 56 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (266 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (16 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (38 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 51 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 57 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 69 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 56 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 89 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "11 Module liegen in vergangenen Semestern ohne Häkchen: Bahnbetrieb: Modellierung, Planung, Disposition II, Functional Materials, Electrochemistry for Energy Applications II, Wasserbau IV: Wasserbauliches Versuchwesen, Energieversorgung und Umweltschutz, Advanced Life Cycle Assessment of Products and Systems, Simulation des elektrischen Energieversorgungssystems, Hochspannungstechnik I, Transportphänomene, Chemische Kinetik (M.PC8), Chemische Produktionsverfahren (M.TC7)."
+   ],
+   [
+    "warn",
+    "Praxisorientierte Projektierung elektrischer Antriebe (Antriebstechnik für Elektroautos) wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen I wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Gasisolierte Schaltanlagen und Leitungen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Fluidenergiemaschinen wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 3,
+     "a": 0,
+     "p": 8
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 8
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 3,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 0,
+    "S2026": 4,
+    "W2026": 0,
+    "S2027": 7,
+    "W2027": 0,
+    "S2028": 0
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 3,
+   "total": 11,
+   "noten": null
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 61 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Erneuerbare Energien liegt vorn mit 8 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "1 Modul liegt in vergangenen Semestern ohne Häkchen: Energiesysteme II (Erneuerbare Energien)."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 38,
+     "a": 10,
+     "p": 32
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 4,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 12,
+     "a": 5,
+     "p": 9
+    },
+    "mul": {
+     "d": 3,
+     "a": 0,
+     "p": 18
+    },
+    "kw": {
+     "d": 8,
+     "a": 5,
+     "p": 0
+    },
+    "qs": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 18,
+    "S2026": 18,
+    "W2026": 14,
+    "S2027": 16,
+    "W2027": 18,
+    "S2028": 5
+   },
+   "aktuell": "W2026",
+   "G": 5,
+   "needWP": 67,
+   "soll": {
+    "Grundlagen": 5,
+    "IEP": 6,
+    "Wahlpflicht": 67,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 43,
+   "total": 81,
+   "noten": {
+    "schnitt": 2.17,
+    "cp": 35
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 67 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (8 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (5 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Erneuerbare Energien (26 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "3 Module liegen in vergangenen Semestern ohne Häkchen: Modeling of Material Flow Systems II, Environmental Sciences, Studium Generale."
+   ],
+   [
+    "warn",
+    "Fundamentals of Electrical Engineering and Power Systems wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Hochspannungsschaltgeräte und -anlagen wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 11,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 118,
+     "a": 18,
+     "p": 67
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 23,
+     "a": 0,
+     "p": 12
+    },
+    "mob": {
+     "d": 23,
+     "a": 8,
+     "p": 15
+    },
+    "mat": {
+     "d": 8,
+     "a": 0,
+     "p": 6
+    },
+    "ern": {
+     "d": 22,
+     "a": 0,
+     "p": 11
+    },
+    "mul": {
+     "d": 5,
+     "a": 6,
+     "p": 4
+    },
+    "kw": {
+     "d": 23,
+     "a": 0,
+     "p": 8
+    },
+    "qs": {
+     "d": 14,
+     "a": 4,
+     "p": 11
+    }
+   },
+   "load": {
+    "W2025": 22,
+    "S2026": 67,
+    "W2026": 42,
+    "S2027": 4,
+    "W2027": 55,
+    "S2028": 24
+   },
+   "aktuell": "W2026",
+   "G": 11,
+   "needWP": 61,
+   "soll": {
+    "Grundlagen": 11,
+    "IEP": 6,
+    "Wahlpflicht": 61,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 83,
+   "total": 83,
+   "noten": {
+    "schnitt": 2.55,
+    "cp": 97
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 61 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (131 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (11 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Mobilität und Transport (23 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "SoSe 26: 67 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 42 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 55 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "6 Module liegen in vergangenen Semestern ohne Häkchen: Grundlagen der Schienenfahrzeugtechnik, Verbrennungskraftmaschinen I, Angewandte Supraleitung, Nachhaltige industrielle Chemie (M.TC9), Energietechnisches Praktikum I, Chemische Kinetik (M.PC8)."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung II wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 6,
+     "a": 3,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 168,
+     "a": 21,
+     "p": 103
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 39,
+     "a": 0,
+     "p": 23
+    },
+    "mob": {
+     "d": 16,
+     "a": 6,
+     "p": 20
+    },
+    "mat": {
+     "d": 11,
+     "a": 0,
+     "p": 11
+    },
+    "ern": {
+     "d": 29,
+     "a": 7,
+     "p": 24
+    },
+    "mul": {
+     "d": 23,
+     "a": 0,
+     "p": 21
+    },
+    "kw": {
+     "d": 21,
+     "a": 0,
+     "p": 4
+    },
+    "qs": {
+     "d": 29,
+     "a": 8,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 35,
+    "S2026": 43,
+    "W2026": 44,
+    "S2027": 64,
+    "W2027": 63,
+    "S2028": 52
+   },
+   "aktuell": "W2026",
+   "G": 9,
+   "needWP": 63,
+   "soll": {
+    "Grundlagen": 9,
+    "IEP": 6,
+    "Wahlpflicht": 63,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 78,
+   "total": 81,
+   "noten": {
+    "schnitt": 2.74,
+    "cp": 138
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 63 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (220 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (9 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Energie, Bau, Infrastruktur (39 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "SoSe 26: 43 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 44 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 64 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 63 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 52 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "8 Module liegen in vergangenen Semestern ohne Häkchen: Bahnbetrieb: Modellierung, Planung, Disposition I, Motorenentwicklung für die elektrische Antriebstechnik, Semiconductor Interfaces, Nachhaltige industrielle Chemie (M.TC9), Grundwassermodellierung, Fundamentals and Technology of Solar Cells, Energietechnisches Praktikum I, Großgeneratoren und Hochleistungsantriebe."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Energy Converters - CAD and System Dynamics wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Großgeneratoren und Hochleistungsantriebe wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "Wahlpflicht": {
+     "d": 9,
+     "a": 0,
+     "p": 4
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "mul": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 4,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "load": {
+    "W2025": 5,
+    "S2026": 0,
+    "W2026": 0,
+    "S2027": 6,
+    "W2027": 8,
+    "S2028": 0
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 9,
+   "total": 19,
+   "noten": {
+    "schnitt": 2.7,
+    "cp": 5
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 59 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Erneuerbare Energien liegt vorn mit 5 von 20 CP."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 3,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 20,
+     "a": 9,
+     "p": 43
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "mul": {
+     "d": 4,
+     "a": 3,
+     "p": 3
+    },
+    "kw": {
+     "d": 4,
+     "a": 0,
+     "p": 5
+    },
+    "qs": {
+     "d": 12,
+     "a": 6,
+     "p": 19
+    }
+   },
+   "load": {
+    "W2025": 0,
+    "S2026": 13,
+    "W2026": 17,
+    "S2027": 26,
+    "W2027": 11,
+    "S2028": 8
+   },
+   "aktuell": "W2026",
+   "G": 3,
+   "needWP": 69,
+   "soll": {
+    "Grundlagen": 3,
+    "IEP": 6,
+    "Wahlpflicht": 69,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 23,
+   "total": 75,
+   "noten": {
+    "schnitt": 2.51,
+    "cp": 8
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 69 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (3 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Multimodale Systeme liegt vorn mit 10 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "2 Module liegen in vergangenen Semestern ohne Häkchen: Glass and Facade Project, Non-conventional synthesis methods in materials chemistry."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 5,
+     "a": 3,
+     "p": 0
+    },
+    "IEP": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 104,
+     "a": 0,
+     "p": 73
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 33,
+     "a": 0,
+     "p": 11
+    },
+    "mob": {
+     "d": 8,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 8,
+     "a": 0,
+     "p": 4
+    },
+    "ern": {
+     "d": 12,
+     "a": 0,
+     "p": 24
+    },
+    "mul": {
+     "d": 7,
+     "a": 0,
+     "p": 20
+    },
+    "kw": {
+     "d": 8,
+     "a": 0,
+     "p": 4
+    },
+    "qs": {
+     "d": 28,
+     "a": 0,
+     "p": 10
+    }
+   },
+   "load": {
+    "W2025": 23,
+    "S2026": 44,
+    "W2026": 27,
+    "S2027": 21,
+    "W2027": 39,
+    "S2028": 41
+   },
+   "aktuell": "W2026",
+   "G": 8,
+   "needWP": 64,
+   "soll": {
+    "Grundlagen": 8,
+    "IEP": 6,
+    "Wahlpflicht": 64,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 83,
+   "total": 90,
+   "noten": {
+    "schnitt": 2.3,
+    "cp": 81
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 64 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (105 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (8 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Energie, Bau, Infrastruktur (33 CP bestanden)."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "SoSe 26: 44 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 39 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 41 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "8 Module liegen in vergangenen Semestern ohne Häkchen: Infrastructure Planning, Materials Science of Thin Films, Hochspannungsschaltgeräte und -anlagen, Hochspannungstechnik II, Energieversorgung und Umweltschutz, Tutorium Energiesysteme, Umweltinformationssysteme, Studium Generale."
+   ],
+   [
+    "warn",
+    "Fundamentals of Electrical Engineering and Power Systems wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Interdisziplinäres Energieprojekt IEP wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Angewandte Supraleitung wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Hochspannungsschaltgeräte und -anlagen wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik II wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung II wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Einführung in Scientific Computing mit Python wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energietechnik wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Normen-, Prüf- und Zulassungswesen in der Elektrotechnik wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 17,
+     "a": 0,
+     "p": 3
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 192,
+     "a": 30,
+     "p": 138
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 28,
+     "a": 0,
+     "p": 34
+    },
+    "mob": {
+     "d": 10,
+     "a": 8,
+     "p": 22
+    },
+    "mat": {
+     "d": 8,
+     "a": 0,
+     "p": 10
+    },
+    "ern": {
+     "d": 42,
+     "a": 9,
+     "p": 23
+    },
+    "mul": {
+     "d": 39,
+     "a": 4,
+     "p": 18
+    },
+    "kw": {
+     "d": 29,
+     "a": 9,
+     "p": 14
+    },
+    "qs": {
+     "d": 36,
+     "a": 0,
+     "p": 17
+    }
+   },
+   "load": {
+    "W2025": 54,
+    "S2026": 91,
+    "W2026": 52,
+    "S2027": 64,
+    "W2027": 70,
+    "S2028": 49
+   },
+   "aktuell": "W2026",
+   "G": 20,
+   "needWP": 52,
+   "soll": {
+    "Grundlagen": 20,
+    "IEP": 6,
+    "Wahlpflicht": 52,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 89,
+   "total": 92,
+   "noten": {
+    "schnitt": 2.63,
+    "cp": 139
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 52 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (288 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (20 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (42 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 54 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 91 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 52 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 64 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 70 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 49 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "10 Module liegen in vergangenen Semestern ohne Häkchen: Facade Technology II, Glass and Facade Project, Elektrische Antriebstechnik für Automobile, Grundlagen der Schienenfahrzeugtechnik, Praxisorientierte Projektierung elektrischer Antriebe (Antriebstechnik für Elektroautos), Materials Science of Thin Films, Sustainable Systems Design, Mini-Forschungsprojekt „Multimodale Energiesysteme und Nachhaltigkeitsbewertung“, Radiation Biophysics, Mini-Forschungsprojekt „Querschnittsthemen der Energiewissenschaft und -technik“."
+   ],
+   [
+    "warn",
+    "Elektrische Antriebstechnik für Automobile wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektrische Bahnen wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Praxisorientierte Projektierung elektrischer Antriebe (Antriebstechnik für Elektroautos) wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Energiekabelanlagen wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Kraftwerke und Erneuerbare Energien wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Einführung in Scientific Computing mit Python wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 20,
+     "a": 3,
+     "p": 0
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 3,
+     "a": 0,
+     "p": 0
+    },
+    "mul": {
+     "d": 11,
+     "a": 3,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 17,
+    "S2026": 0,
+    "W2026": 6,
+    "S2027": 0,
+    "W2027": 0,
+    "S2028": 0
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 20,
+   "total": 23,
+   "noten": {
+    "schnitt": 2,
+    "cp": 6
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 49 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Multimodale Systeme liegt vorn mit 14 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Technik und Ökonomie Multimodaler Energiesysteme wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 45,
+     "a": 0,
+     "p": 32
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 22,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 10,
+     "a": 0,
+     "p": 3
+    },
+    "mul": {
+     "d": 4,
+     "a": 0,
+     "p": 9
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "qs": {
+     "d": 3,
+     "a": 0,
+     "p": 14
+    }
+   },
+   "load": {
+    "W2025": 6,
+    "S2026": 23,
+    "W2026": 6,
+    "S2027": 21,
+    "W2027": 15,
+    "S2028": 6
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 45,
+   "total": 72,
+   "noten": {
+    "schnitt": 2.59,
+    "cp": 30
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 72 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (5 CP Überschuss)."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Energie, Bau, Infrastruktur (22 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "4 Module liegen in vergangenen Semestern ohne Häkchen: Green Building Design II, Wasserbau III: Verkehrswasserbau, Gewässerentwicklung, Ökohydraulik, Umweltplanung, Projektseminar Energieinformationssysteme."
+   ],
+   [
+    "warn",
+    "Hochspannungstechnik II wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 5,
+     "a": 0,
+     "p": 10
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 77,
+     "a": 16,
+     "p": 59
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 22,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 15,
+     "a": 0,
+     "p": 9
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "ern": {
+     "d": 15,
+     "a": 0,
+     "p": 10
+    },
+    "mul": {
+     "d": 4,
+     "a": 12,
+     "p": 12
+    },
+    "kw": {
+     "d": 8,
+     "a": 0,
+     "p": 9
+    },
+    "qs": {
+     "d": 13,
+     "a": 4,
+     "p": 14
+    }
+   },
+   "load": {
+    "W2025": 31,
+    "S2026": 34,
+    "W2026": 28,
+    "S2027": 22,
+    "W2027": 33,
+    "S2028": 19
+   },
+   "aktuell": "W2026",
+   "G": 15,
+   "needWP": 57,
+   "soll": {
+    "Grundlagen": 15,
+    "IEP": 6,
+    "Wahlpflicht": 57,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 77,
+   "total": 87,
+   "noten": {
+    "schnitt": 2.24,
+    "cp": 64
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 57 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (80 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (15 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Multimodale Systeme (28 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "8 Module liegen in vergangenen Semestern ohne Häkchen: Materials Science for Renewable Energy Systems, Energy Technologies in Civil Engineering and Architecture, Bahnbetrieb: Modellierung, Planung, Disposition II, Modeling of Material Flow Systems II, Projektseminar Netzberechnung, Höhere Wärmeübertragung, Projektseminar Energieinformationssysteme, Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen."
+   ],
+   [
+    "warn",
+    "Fundamentals of Electrical Engineering and Power Systems wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen I wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Hochspannungsschaltgeräte und -anlagen wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Blitzphysik und Blitzschutz wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Elektrothermische Prozesstechnik wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Großgeneratoren und Hochleistungsantriebe wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Einführung in Scientific Computing mit Python wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Fluidenergiemaschinen wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Überspannungsschutz und Isolationskoordination in Energieversorgungsnetzen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 6,
+     "a": 3,
+     "p": 18
+    },
+    "IEP": {
+     "d": 6,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 191,
+     "a": 28,
+     "p": 126
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 4
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 34,
+     "a": 6,
+     "p": 12
+    },
+    "mob": {
+     "d": 13,
+     "a": 12,
+     "p": 15
+    },
+    "mat": {
+     "d": 8,
+     "a": 0,
+     "p": 17
+    },
+    "ern": {
+     "d": 63,
+     "a": 0,
+     "p": 29
+    },
+    "mul": {
+     "d": 26,
+     "a": 6,
+     "p": 20
+    },
+    "kw": {
+     "d": 35,
+     "a": 4,
+     "p": 5
+    },
+    "qs": {
+     "d": 12,
+     "a": 0,
+     "p": 28
+    }
+   },
+   "load": {
+    "W2025": 43,
+    "S2026": 88,
+    "W2026": 53,
+    "S2027": 81,
+    "W2027": 44,
+    "S2028": 73
+   },
+   "aktuell": "W2026",
+   "G": 27,
+   "needWP": 45,
+   "soll": {
+    "Grundlagen": 27,
+    "IEP": 6,
+    "Wahlpflicht": 45,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 84,
+   "total": 109,
+   "noten": {
+    "schnitt": 2.56,
+    "cp": 143
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 45 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (273 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (27 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (63 CP bestanden)."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 8 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 43 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 88 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 53 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 81 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 27/28: 44 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 73 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "12 Module liegen in vergangenen Semestern ohne Häkchen: Bauen im Bestand und Energetische Sanierung, Facade Technology I, Bahnbetrieb: Sichere Durchführung I, Grundlagen der Flugantriebe, Angewandte Optik, Blitzphysik und Blitzschutz, Modeling of Material Flow Systems II, Sustainable Systems Design, Mini-Forschungsprojekt „Zukünftige Kraftwerke“, Statistische Physik von Netzwerken, Elektrochemie (M.PC5/M.AC9), Studium Generale."
+   ],
+   [
+    "warn",
+    "Interdisziplinäres Energieprojekt IEP wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Grundlagen der Flugantriebe wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Motorenentwicklung für die elektrische Antriebstechnik wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Gasisolierte Schaltanlagen und Leitungen wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Advanced Power Electronics wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Energietechnisches Praktikum I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung II wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Energiewende gestalten wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 8
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 14,
+     "a": 0,
+     "p": 13
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mob": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "ern": {
+     "d": 0,
+     "a": 0,
+     "p": 5
+    },
+    "mul": {
+     "d": 5,
+     "a": 0,
+     "p": 0
+    },
+    "kw": {
+     "d": 0,
+     "a": 0,
+     "p": 8
+    },
+    "qs": {
+     "d": 4,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "load": {
+    "W2025": 10,
+    "S2026": 8,
+    "W2026": 4,
+    "S2027": 5,
+    "W2027": 5,
+    "S2028": 3
+   },
+   "aktuell": "W2026",
+   "G": 8,
+   "needWP": 64,
+   "soll": {
+    "Grundlagen": 8,
+    "IEP": 6,
+    "Wahlpflicht": 64,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 14,
+   "total": 35,
+   "noten": {
+    "schnitt": 2.61,
+    "cp": 14
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 37 CP fehlen noch bis zum Soll von 64 CP."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (8 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "warn",
+    "Noch keine Vertiefung: Zukünftige Kraftwerke liegt vorn mit 8 von 20 CP."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "2 Module liegen in vergangenen Semestern ohne Häkchen: Geothermie II, Modeling of Turbulent Flows."
+   ],
+   [
+    "warn",
+    "Praxisorientierte Projektierung elektrischer Antriebe (Antriebstechnik für Elektroautos) wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung II wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 22,
+     "a": 9,
+     "p": 38
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 0,
+     "a": 0,
+     "p": 6
+    },
+    "mob": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 0,
+     "a": 4,
+     "p": 0
+    },
+    "ern": {
+     "d": 3,
+     "a": 0,
+     "p": 8
+    },
+    "mul": {
+     "d": 15,
+     "a": 0,
+     "p": 6
+    },
+    "kw": {
+     "d": 0,
+     "a": 5,
+     "p": 8
+    },
+    "qs": {
+     "d": 4,
+     "a": 0,
+     "p": 10
+    }
+   },
+   "load": {
+    "W2025": 6,
+    "S2026": 6,
+    "W2026": 13,
+    "S2027": 14,
+    "W2027": 14,
+    "S2028": 16
+   },
+   "aktuell": "W2026",
+   "G": 0,
+   "needWP": 72,
+   "soll": {
+    "Grundlagen": 0,
+    "IEP": 6,
+    "Wahlpflicht": 72,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 22,
+   "total": 69,
+   "noten": {
+    "schnitt": 2.52,
+    "cp": 22
+   }
+  },
+  "hinweise": [
+   [
+    "warn",
+    "Wahlpflicht: 3 CP fehlen noch bis zum Soll von 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung mit Planung erreicht: Multimodale Systeme (21 CP)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "1 Modul liegt in vergangenen Semestern ohne Häkchen: Introduction to Turbulence."
+   ],
+   [
+    "warn",
+    "Hochspannungsschaltgeräte und -anlagen wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Energiewende gestalten wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Elektromagnetische Verträglichkeit wird im Wintersemester angeboten, steht aber im SoSe 27."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 8,
+     "a": 0,
+     "p": 8
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 56,
+     "a": 14,
+     "p": 63
+    },
+    "Thesis": {
+     "d": 30,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 12,
+     "a": 0,
+     "p": 11
+    },
+    "mob": {
+     "d": 8,
+     "a": 0,
+     "p": 0
+    },
+    "mat": {
+     "d": 5,
+     "a": 0,
+     "p": 10
+    },
+    "ern": {
+     "d": 22,
+     "a": 14,
+     "p": 11
+    },
+    "mul": {
+     "d": 4,
+     "a": 0,
+     "p": 6
+    },
+    "kw": {
+     "d": 5,
+     "a": 0,
+     "p": 5
+    },
+    "qs": {
+     "d": 0,
+     "a": 0,
+     "p": 20
+    }
+   },
+   "load": {
+    "W2025": 23,
+    "S2026": 15,
+    "W2026": 62,
+    "S2027": 31,
+    "W2027": 22,
+    "S2028": 26
+   },
+   "aktuell": "W2026",
+   "G": 16,
+   "needWP": 56,
+   "soll": {
+    "Grundlagen": 16,
+    "IEP": 6,
+    "Wahlpflicht": 56,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 94,
+   "total": 108,
+   "noten": {
+    "schnitt": 2.45,
+    "cp": 44
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 56 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (61 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (16 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (22 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 62 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "5 Module liegen in vergangenen Semestern ohne Häkchen: Chemistry for Energy Scientists and Engineers, Mini-Forschungsprojekt „Materialien für energietechnische Prozesse“, Nachhaltige industrielle Chemie (M.TC9), Chemische Kinetik (M.PC8), Non-conventional synthesis methods in materials chemistry."
+   ],
+   [
+    "warn",
+    "Grundlagen der Schienenfahrzeugtechnik wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Praxisorientierte Projektierung elektrischer Antriebe (Antriebstechnik für Elektroautos) wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Wind-, Wasser- und Wellenkraft wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Gasisolierte Schaltanlagen und Leitungen wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Elektrische Maschinen und Antriebe wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ]
+  ]
+ },
+ {
+  "zahlen": {
+   "S": {
+    "Grundlagen": {
+     "d": 3,
+     "a": 8,
+     "p": 5
+    },
+    "IEP": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlpflicht": {
+     "d": 169,
+     "a": 73,
+     "p": 100
+    },
+    "Thesis": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    },
+    "Wahlbereich": {
+     "d": 0,
+     "a": 0,
+     "p": 0
+    }
+   },
+   "T": {
+    "ebi": {
+     "d": 11,
+     "a": 16,
+     "p": 16
+    },
+    "mob": {
+     "d": 25,
+     "a": 15,
+     "p": 12
+    },
+    "mat": {
+     "d": 13,
+     "a": 7,
+     "p": 14
+    },
+    "ern": {
+     "d": 43,
+     "a": 12,
+     "p": 26
+    },
+    "mul": {
+     "d": 20,
+     "a": 9,
+     "p": 15
+    },
+    "kw": {
+     "d": 31,
+     "a": 5,
+     "p": 13
+    },
+    "qs": {
+     "d": 26,
+     "a": 9,
+     "p": 4
+    }
+   },
+   "load": {
+    "W2025": 65,
+    "S2026": 70,
+    "W2026": 105,
+    "S2027": 37,
+    "W2027": 36,
+    "S2028": 45
+   },
+   "aktuell": "W2026",
+   "G": 16,
+   "needWP": 56,
+   "soll": {
+    "Grundlagen": 16,
+    "IEP": 6,
+    "Wahlpflicht": 56,
+    "Thesis": 30,
+    "Wahlbereich": 12
+   },
+   "done": 75,
+   "total": 88,
+   "noten": {
+    "schnitt": 2.77,
+    "cp": 132
+   }
+  },
+  "hinweise": [
+   [
+    "ok",
+    "Wahlpflicht: Soll von 56 CP ist mit Planung erreicht."
+   ],
+   [
+    "info",
+    "Wahlpflicht: Über 72 CP zählen nicht mehr (270 CP Überschuss)."
+   ],
+   [
+    "info",
+    "Grundlagenmodule (16 CP) zählen nur nach Zuweisung durch die Prüfungskommission. Ohne Zuweisung steigt das Wahlpflicht-Soll auf 72 CP."
+   ],
+   [
+    "ok",
+    "Vertiefung erreicht: Erneuerbare Energien (43 CP bestanden)."
+   ],
+   [
+    "info",
+    "Das Interdisziplinäre Energieprojekt (6 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Die Masterthesis (30 CP) ist noch nicht eingeplant."
+   ],
+   [
+    "info",
+    "Wahlbereich: 12 CP offen. Frei wählbar aus dem Gesamtkatalog der TU Darmstadt, dafür oben im Katalog \"Eigenes Modul anlegen\" nutzen."
+   ],
+   [
+    "warn",
+    "WiSe 25/26: 65 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 26: 70 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "WiSe 26/27: 105 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 27: 37 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "SoSe 28: 45 CP sind viel für ein Semester (Richtwert 30 CP)."
+   ],
+   [
+    "warn",
+    "11 Module liegen in vergangenen Semestern ohne Häkchen: Bauen im Bestand und Energetische Sanierung, Fachmodul F: Gebäudetechnik, Bahnsysteme und Bahntechnik, Bahnbetrieb: Sichere Durchführung I, Materials chemistry in electrocatalysis for energy applications, Geothermie II, Energiemanagement & Optimierung, Netzwirtschaft und Netzbetrieb in der Praxis, Elektrische Maschinen und Antriebe, Modeling of Turbulent Flows, Elektromagnetische Verträglichkeit."
+   ],
+   [
+    "warn",
+    "Control of Drives wird im Sommersemester angeboten, steht aber im WiSe 27/28."
+   ],
+   [
+    "warn",
+    "Elektrische Bahnen wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Verbrennungskraftmaschinen I wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Advanced Power Electronics wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Elektrische Energieversorgung III wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ],
+   [
+    "warn",
+    "Energiemanagement & Optimierung wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Energiewende gestalten wird im Wintersemester angeboten, steht aber im SoSe 28."
+   ],
+   [
+    "warn",
+    "Netzwirtschaft und Netzbetrieb in der Praxis wird im Sommersemester angeboten, steht aber im WiSe 25/26."
+   ],
+   [
+    "warn",
+    "Elektrische Maschinen und Antriebe wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Großgeneratoren und Hochleistungsantriebe wird im Wintersemester angeboten, steht aber im SoSe 26."
+   ],
+   [
+    "warn",
+    "Fluidenergiemaschinen wird im Sommersemester angeboten, steht aber im WiSe 26/27."
+   ]
+  ]
+ }
+]
