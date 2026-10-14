@@ -14,7 +14,7 @@ Beim ersten Besuch erscheint eine kurze Anleitung. Du erreichst sie jederzeit ü
 
 | Was | Wie |
 |---|---|
-| Modul einplanen | aus dem Katalog in eine Semesterspalte ziehen, oder antippen und Semester wählen |
+| Modul einplanen | Kapitel im Katalog öffnen, Modul in eine Semesterspalte ziehen, oder antippen und Semester wählen. Mit Suche oder Filter sind alle Kapitel offen |
 | Bestanden markieren | Häkchen links an der Karte |
 | Note eintragen | Karte antippen, bei gesetztem Häkchen Note wählen |
 | Themenbereich wählen | Karte antippen, "zählt für" (nur bei Modulen, die in mehreren Themenbereichen stehen) |

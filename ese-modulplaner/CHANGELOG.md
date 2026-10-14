@@ -1,5 +1,13 @@
 # Änderungsprotokoll
 
+## 0.4.0 (14.10.2026)
+
+- Handyansicht: Fortschritt je Bereich als eigener Balken statt einer schmalen Gesamtleiste, Semesterspalten (Karten 78 % der Breite, mit Einrasten) und Menü als Seitenleiste.
+- Modulkatalog in Kapitel gegliedert (Bereiche und Themenbereiche), standardmäßig zugeklappt. Mit Suche oder Filter sind alle Kapitel offen.
+- Auf Tablet und Handy steht der Semesterplan über dem Modulkatalog.
+- Hinweis beim Einplanen eines Moduls auf kleinen Bildschirmen, in welches Semester es gekommen ist.
+- Menü ("Menü" oben rechts) als Seitenleiste auf dem Handy; auf dem Rechner bleibt die Knopfleiste.
+
 ## 0.3.1 (14.10.2026)
 
 - Kurze Anleitung als Fenster beim ersten Besuch; über das „i“ oben jederzeit erneut abrufbar.
