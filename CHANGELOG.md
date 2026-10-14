@@ -1,6 +1,6 @@
 # Änderungsprotokoll
 
-## Unveröffentlicht
+## 0.5.0 (14.10.2026)
 
 - Neue Ordnerstruktur `app/` (Programm) und `studiengaenge/ese/` (Daten), Rechnung über einen allgemeinen Strukturbaum (`app/src/kern/baum.js`). Vorbereitung für weitere Studiengänge.
 - Regeln aus der Studienordnung (PO 2023, Anhang I) ergänzt: höchstens 32 CP je Fachbereich im Wahlpflichtbereich (überzählige CP werden nicht angerechnet), höchstens zwei Mini-Forschungsprojekte, mindestens 5 CP aus Rechts- und Wirtschafts-, Gesellschafts- oder Humanwissenschaften, Thesis erst ab 75 CP, zweite Vertiefung, Hinweis auf ein Mini-Forschungsprojekt in der Vertiefung.
